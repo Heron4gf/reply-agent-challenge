@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from utils.call_llm import call_llm
 from utils.read_prompt import read_file
 from models.input_data import SMS
+import os
 
 class RawSMS(BaseModel):
     sms: str
@@ -15,7 +16,8 @@ async def process_sms(raw_text: str, sem: asyncio.Semaphore) -> SMS:
             call_llm,
             prompt_id="extract_sms",
             input=raw_text,
-            output_format=SMS
+            output_format=SMS,
+            model=os.getenv("EXTRACTION_MODEL")
         )
 
 async def extract_sms_parallel(sms_json_path: str, max_concurrent: int = 5, max_rows: Optional[int] = None) -> List[SMS]:
