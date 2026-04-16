@@ -1,4 +1,5 @@
 import os
+import json
 import ulid
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -17,9 +18,25 @@ langfuse_client = Langfuse(
     host=os.getenv("LANGFUSE_HOST", "https://challenges.reply.com/langfuse")
 )
 
+SESSION_ID_FILE = "./session_id.json"
+
 def generate_session_id() -> str:
-    team = os.getenv("TEAM_NAME", "tutorial").replace(" ", "-")
+    team = os.getenv("TEAM_NAME").replace(" ", "-")
     return f"{team}-{ulid.new().str}"
+
+def get_cached_session_id() -> str:
+    """Get session ID from cache, or generate and cache a new one if not present."""
+    if os.path.exists(SESSION_ID_FILE):
+        with open(SESSION_ID_FILE, "r") as f:
+            data = json.load(f)
+            return data.get("session_id")
+    
+    # Generate new session ID and cache it
+    session_id = generate_session_id()
+    with open(SESSION_ID_FILE, "w") as f:
+        json.dump({"session_id": session_id}, f)
+    
+    return session_id
 
 @observe()
 def call_llm(
@@ -30,7 +47,7 @@ def call_llm(
     session_id: str | None = None
 ) -> BaseModel:
     prompt_text = get_prompt(prompt_id)
-    active_session_id = session_id or generate_session_id()
+    active_session_id = session_id or get_cached_session_id()
 
     llm = ChatOpenAI(
         api_key=os.getenv("OPENROUTER_API_KEY"),
