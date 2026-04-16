@@ -1,24 +1,19 @@
 import json
 import asyncio
 from typing import List, Optional
-from pydantic import BaseModel
 from utils.call_llm import call_llm
 from utils.read_prompt import read_file
-from models.input_data import SMS
-import os
+from models.input_data import SMS, SMSList
 
-class RawSMS(BaseModel):
-    sms: str
-
-async def process_sms(raw_text: str, sem: asyncio.Semaphore) -> SMS:
+async def process_sms(raw_text: str, sem: asyncio.Semaphore) -> List[SMS]:
     async with sem:
-        return await asyncio.to_thread(
+        result = await asyncio.to_thread(
             call_llm,
             prompt_id="extract_sms",
             input=raw_text,
-            output_format=SMS,
-            model=os.getenv("EXTRACTION_MODEL")
+            output_format=SMSList
         )
+        return result.messages
 
 async def extract_sms_parallel(sms_json_path: str, max_concurrent: int = 5, max_rows: Optional[int] = None) -> List[SMS]:
     raw_data = json.loads(read_file(sms_json_path))
@@ -33,4 +28,7 @@ async def extract_sms_parallel(sms_json_path: str, max_concurrent: int = 5, max_
         for entry in raw_data if entry.get("sms")
     ]
     
-    return await asyncio.gather(*tasks)
+    nested_results = await asyncio.gather(*tasks)
+    flat_results = [sms for sublist in nested_results for sms in sublist]
+    
+    return flat_results

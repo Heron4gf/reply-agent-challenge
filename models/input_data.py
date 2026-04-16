@@ -17,9 +17,9 @@ class SMS(BaseModel):
     receiver: str
     content: str
     timestamp: datetime
-    suspect: bool # messaggio sospetto
+    suspect: bool
 
-class SMSChat(BaseModel):
+class SMSList(BaseModel):
     messages: List[SMS]
 
 class Email(BaseModel):
@@ -29,7 +29,10 @@ class Email(BaseModel):
     receiver_name: str
     content: str
     timestamp: datetime
-    suspect: bool # email sospetta
+    suspect: bool
+
+class EmailList(BaseModel):
+    emails: List[Email]
 
 class Transaction(BaseModel):
     transaction_id: str
@@ -57,6 +60,6 @@ class UserProfile(BaseModel):
 
     # linked data
     locations: List[Location] = []
-    sms_chats: List[SMSChat] = []
+    sms_chats: List[SMS] = []
     emails: List[Email] = []
     transactions: List[Transaction] = []
