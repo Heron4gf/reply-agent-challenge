@@ -2,7 +2,7 @@ import os
 import ulid
 from pydantic import BaseModel
 from langfuse.openai import OpenAI
-from langfuse.decorators import observe
+from langfuse import observe
 from read_prompt import get_prompt
 
 client = OpenAI(
