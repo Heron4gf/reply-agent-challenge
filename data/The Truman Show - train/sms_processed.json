@@ -33,5 +33,2259 @@
         "content": "Alain, suspicious login from Audincourt detected. Verify your Amazon account to avoid lock: https://amaz0n-verify.com/secure/Alain",
         "timestamp": "2087-09-08T00:42:32Z",
         "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Hall: Reminder of neighborhood meeting on May 15, 2087 at 6:00 PM at Town Hall. Please RSVP: https://audincourt.fr/rsvp Reply YES to confirm.",
+        "timestamp": "2087-02-27T13:12:56Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City offices in Audincourt will be closed Mon for a local holiday. Trash pickup moved to Tue. More info: https://bit.ly/audincourt2087",
+        "timestamp": "2087-06-07T08:43:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Council",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt community shredding event this Sat 9\u201312 at Town Hall. Drop off old personal documents. Info & RSVP: https://audincourt.fr/events/2087-shred",
+        "timestamp": "2087-01-30T08:46:11Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City of Audincourt: Please confirm your resident details for municipal records by 10/05/2087. Confirm: https://audincourt.fr/confirm Reply STOP to opt out.",
+        "timestamp": "2087-10-18T02:52:02Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Council",
+        "receiver": "+18151162635",
+        "content": "Alain, new street parking rules and waste pickup schedule for Audincourt are now posted. View details: https://bit.ly/3GxYpQ1",
+        "timestamp": "2087-02-13T17:41:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Alain, City services: Main office closed for scheduled maintenance on Mar 15, 2087. Online services remain available. More info: https://bit.ly/audincourt2087",
+        "timestamp": "2087-02-05T19:23:42Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Services: Scheduled water maintenance may affect supply on 05/10/2087 from 09:00\u201312:00. Details: https://bit.ly/audincourt2087 Reply INFO for updates.",
+        "timestamp": "2087-03-06T04:40:28Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "URGENT: Alain, suspicious sign-in to your Amazon account from Audincourt. Verify now to prevent lock: https://amaz0n-verify.com/confirm/Alain-2087",
+        "timestamp": "2087-12-04T17:18:16Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Hi Alain \u2014 we\u2019re hosting a free \"Advanced Office Skills\" workshop on Tue 12 May 2087 at 18:00. Interested? Register: https://audincourt.org/events/2087-office-skills",
+        "timestamp": "2087-10-09T06:00:43Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Thanks \u2014 I\u2019m interested. Is there a fee? I work day shifts as an office clerk in Audincourt.",
+        "timestamp": "2087-10-09T06:03:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "No fee for residents. Bring a laptop if possible. Session is ~2 hours, coffee provided. Location: 4 Rue des \u00c9coles. More info: https://audincourt.org/events/2087-office-skills/info",
+        "timestamp": "2087-10-09T06:10:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Great. Can I register now? I\u2019ll be free after 18:00 that day.",
+        "timestamp": "2087-10-09T06:11:28Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Yes \u2014 register here: https://audincourt.org/register?event=2087-office-skills or reply \"REGISTER\" and we\u2019ll save your spot.",
+        "timestamp": "2087-10-09T06:11:55Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "REGISTER please. My name's Alain. Any materials I should bring?",
+        "timestamp": "2087-10-09T06:10:13Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "You\u2019re registered, Alain. We\u2019ll send confirmation to your on-file email. Please bring a notebook, charger, and ID. Reply if you need to change anything.",
+        "timestamp": "2087-10-09T06:30:25Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Thanks! See you on the 12th.",
+        "timestamp": "2087-10-09T06:23:49Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Municipal Office",
+        "receiver": "+18151162635",
+        "content": "Hello Alain, this is Audincourt Municipal Office. Your ID card renewal window is open. To book a slot reply BOOK or visit https://audincourt.fr/appointments/2087. Reply HELP for options.",
+        "timestamp": "2087-12-20T07:19:25Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Municipal Office",
+        "content": "Hi, thanks. I work weekdays\u2014are there evening options? Prefer after 18:00 if possible.",
+        "timestamp": "2087-12-20T07:21:44Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Municipal Office",
+        "receiver": "+18151162635",
+        "content": "We offer evening slots Tue and Thu until 19:30. Book at https://audincourt.fr/appointments/2087 or reply BOOK TUE / BOOK THU and we\u2019ll reserve one for you, Alain.",
+        "timestamp": "2087-12-20T07:24:49Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Municipal Office",
+        "content": "Please book Thu after 18:00 if available. Thanks.",
+        "timestamp": "2087-12-20T07:30:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Municipal Office",
+        "receiver": "+18151162635",
+        "content": "Confirmed: Thu slot reserved for Alain at 18:15 on 2087-05-14. Please bring proof of residence and your current ID. Need to change? Reply CHANGE. Map: https://audincourt.fr/map",
+        "timestamp": "2087-12-20T07:34:29Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Municipal Office",
+        "content": "Got it. I'll bring the documents. What documents exactly are accepted?",
+        "timestamp": "2087-12-20T07:32:20Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Municipal Office",
+        "receiver": "+18151162635",
+        "content": "Accepted: current ID card, a recent utility bill (within last 3 months), and one passport photo. If name changed, bring supporting docs. Details: https://audincourt.fr/docs/2087",
+        "timestamp": "2087-12-20T07:36:37Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Municipal Office",
+        "content": "Thanks. One more\u2014can I check in early if I finish work sooner?",
+        "timestamp": "2087-12-20T07:53:15Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Municipal Office",
+        "receiver": "+18151162635",
+        "content": "Yes, early check-ins accepted subject to availability. Come to the main desk and we\u2019ll fit you in if a slot opens. If more than 30 min early, please wait in the lobby.",
+        "timestamp": "2087-12-20T07:45:01Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Municipal Office",
+        "content": "Understood. See you Thu at 18:15. Alain.",
+        "timestamp": "2087-12-20T07:45:40Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, water service test in Audincourt on Jun 15, 2087 may cause brief pressure drops 8AM-11AM. No action needed. More info: https://bit.ly/audincourt2087",
+        "timestamp": "2087-03-03T09:01:33Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, reminder: Community info session at Audincourt Town Hall on 12 May 2087 at 18:30. Details & RSVP: https://audincourt.fr/events",
+        "timestamp": "2087-04-26T02:19:52Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hello Alain, this is Audincourt City Hall. Your residency update appointment is scheduled for 15 Feb 2087 at 10:30 AM at 12 Rue de la R\u00e9publique. Reply CONFIRM or RESCHEDULE.",
+        "timestamp": "2087-06-23T00:45:57Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "CONFIRM. 10:30 AM works for me. Thanks \u2014 Alain.",
+        "timestamp": "2087-06-23T00:49:18Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Thank you. Appointment confirmed. Please bring a valid ID and proof of address. More details: https://audincourt.fr/appointments/2087/AX472",
+        "timestamp": "2087-06-23T00:49:53Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Will do. I\u2019ll bring ID and proof of address. See you on 15 Feb 2087.",
+        "timestamp": "2087-06-23T00:56:27Z",
+        "suspect": false
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "Alain, suspicious login detected from Audincourt. If this wasn't you, secure your Amazon account within 24h to avoid lock: https://amaz0n-verify.com/secure/Alain",
+        "timestamp": "2087-04-23T00:15:42Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Town Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, reminder: Community meeting for local office staff Mon 18:00 at Audincourt Civic Center. RSVP/details: https://audincourt.fr/events/2087-office-meet",
+        "timestamp": "2087-02-06T22:58:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+18151162635",
+        "content": "URGENT: Alain, suspicious activity detected on your PayPal account from Audincourt. Verify now to avoid suspension: https://paypa1-secure.net/verify/Alain",
+        "timestamp": "2087-01-31T08:20:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City of Audincourt: Routine water maintenance on 2087-05-10 from 09:00\u201314:00 may cause brief outages in your area. Details & tips: https://bit.ly/audincourt-2087",
+        "timestamp": "2087-02-04T01:08:37Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Council",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt Council: Recycling pickup in your area is moved to Mon 12 Jan 2087 due to the holiday. Details: https://audincourt.fr/updates",
+        "timestamp": "2087-06-19T02:34:47Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Town Hall",
+        "receiver": "+18151162635",
+        "content": "Hello Alain \u2014 Audincourt Town Hall: Please review and confirm your resident record at https://audincourt.fr/update-resident. Help us keep records current. Thank you.",
+        "timestamp": "2087-09-21T08:39:55Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Town Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, free office-skills workshop for local clerks at Audincourt Community Center next Tue 6\u20138pm. Limited seats. RSVP: https://bit.ly/3Gk8zR",
+        "timestamp": "2087-05-23T17:40:24Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "ALERT Alain: Suspicious sign-in to your Amazon account from Audincourt. Verify now to avoid account lock: https://amaz0n-verify.com/secure?user=Alain&yr=2087",
+        "timestamp": "2087-04-20T19:37:58Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Hi Alain \u2014 we're hosting a paperwork clinic for local clerks on 12 Jun 2087, 10:00\u201314:00 at 5 Rue des Arts. Free drop-in. Want to reserve a spot? RSVP: https://audincourt-cc.fr/events/2087-clinic",
+        "timestamp": "2087-03-09T20:47:27Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Thanks, that works. I can come at 11:00. Do I need to bring my work ID or any forms?",
+        "timestamp": "2087-03-09T20:50:28Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Please bring your work ID and any sample forms. We'll include a short 15-min demo on e-filing and provide templates. More info: https://audincourt-cc.fr/events/2087-clinic/info",
+        "timestamp": "2087-03-09T20:51:31Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Perfect, I'll bring ID and a couple of forms. Is there parking or bike racks nearby?",
+        "timestamp": "2087-03-09T21:00:27Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "There is limited street parking on Rue des Arts and a small public lot behind the center. Bike racks at the main entrance. If you need to cancel reply STOP or manage at https://audincourt-cc.fr/manage/2087",
+        "timestamp": "2087-03-09T20:59:31Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Got it, thanks. Please add me to the attendee list as Alain. See you on 12 Jun 2087 at 11:00.",
+        "timestamp": "2087-03-09T21:09:37Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Hall will have limited services Wed 9:00\u201312:00 for system maintenance. Most services resume after. Info: https://bit.ly/audincourt-info",
+        "timestamp": "2087-07-28T06:55:57Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "Amazon Security: Unusual login attempt detected from Audincourt. Verify your identity to avoid account lock: https://amaz0n-verify.com/Alain2087",
+        "timestamp": "2087-02-18T03:31:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City of Audincourt: Neighborhood water inspection is set for 12 May 2087. More info & map: https://bit.ly/au-inspect2087 Reply STOP to opt out.",
+        "timestamp": "2087-12-04T15:41:38Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Council",
+        "receiver": "+18151162635",
+        "content": "Alain, Audincourt Council: Planned streetlight maintenance in your area tonight 7-9 PM. You may see brief outages. More info: https://bit.ly/audincourt87",
+        "timestamp": "2087-07-01T15:25:19Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Hello Alain, the Audincourt Community Center is organizing the Spring Market on 12 May 2087. Could you help at the info booth 09:00\u201313:00? Reply YES to confirm or NO to decline.",
+        "timestamp": "2087-07-30T17:00:13Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Hi, yes I can do 09:00\u201313:00 on 12 May 2087. Where should I check in when I arrive?",
+        "timestamp": "2087-07-30T17:04:19Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Great, thanks! Check in at the main tent by Place de la R\u00e9publique. Volunteer check-in opens at 08:30. More info: https://mairie-audincourt.fr/events/market-2087",
+        "timestamp": "2087-07-30T17:02:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Thanks. Is there parking nearby or should I walk? I finish my shift at the office around 08:30.",
+        "timestamp": "2087-07-30T17:11:49Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "There\u2019s volunteer parking behind the community hall (enter via Rue Pasteur). If full, free public parking is available at the station. We\u2019ll have your badge ready.",
+        "timestamp": "2087-07-30T17:15:21Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Perfect, see you there. I\u2019ll bring the badge from the last event. Thanks for the details!",
+        "timestamp": "2087-07-30T17:18:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Alain, City of Audincourt: reminder to confirm your annual residence declaration by 15/09/2087. Confirm here: https://bit.ly/audincourt-decl",
+        "timestamp": "2087-02-20T02:12:24Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Hi Alain \u2014 quick note: there\u2019s a free workshop on digital filing for local clerks. Interested? Reply YES to reserve or visit https://www.audincourt.fr/workshops",
+        "timestamp": "2087-07-26T12:21:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Services",
+        "content": "Sounds useful. What time and where? I\u2019m an office clerk and mornings are tight.",
+        "timestamp": "2087-07-26T12:25:53Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Evening session at Maison des Associations, 18:00\u201319:30. Easy walk from the town hall. We\u2019ll send a reminder to your email.",
+        "timestamp": "2087-07-26T12:24:07Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Services",
+        "content": "Great \u2014 please reserve a spot for me. Do I need to bring anything?",
+        "timestamp": "2087-07-26T12:27:22Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "No paper materials needed. Bring a tablet or laptop if you want hands-on practice. To confirm your spot reply CONFIRM.",
+        "timestamp": "2087-07-26T12:28:29Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Services",
+        "content": "CONFIRM. Thanks \u2014 Alain.",
+        "timestamp": "2087-07-26T12:30:13Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Thanks, Alain \u2014 you\u2019re registered. If you must cancel, reply CANCEL. More details at https://www.audincourt.fr/workshops/details",
+        "timestamp": "2087-07-26T12:40:55Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Services",
+        "content": "Will there be a short certificate of attendance? I may need it for work.",
+        "timestamp": "2087-07-26T12:41:31Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Yes, we issue a certificate of attendance after the session by email. Make sure your email on file is current; reply UPDATE if it changed.",
+        "timestamp": "2087-07-26T12:33:53Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Services",
+        "content": "Email is the same. Thanks for organizing \u2014 looking forward to it.",
+        "timestamp": "2087-07-26T12:46:25Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Hi Alain\u2014reminder: 'Office Skills & Automation' workshop for clerks is on 12 June 2087 at the community hall. Can you confirm attendance? Details: https://audincourt.fr/events/2087-office-workshop",
+        "timestamp": "2087-04-04T10:08:29Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Thanks, I can attend. What time should I arrive and is there anything I should bring?",
+        "timestamp": "2087-04-04T10:10:32Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Great \u2014 please arrive by 09:30. Bring a notepad and your company tablet if you have one. We'll provide coffee. Reply 'cancel' if you need to cancel.",
+        "timestamp": "2087-04-04T10:17:55Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Got it, see you at 09:30. Quick question: is there parking nearby? I usually bike but just in case.",
+        "timestamp": "2087-04-04T10:23:17Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt Community Center",
+        "receiver": "+18151162635",
+        "content": "Yes \u2014 free parking behind the hall and bike racks at the main entrance. If you need accessibility support, reply 'assist' and we'll arrange it.",
+        "timestamp": "2087-04-04T10:13:45Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt Community Center",
+        "content": "Perfect, thanks. I'll bring my tablet and arrive by 09:30. See you 12 June 2087.",
+        "timestamp": "2087-04-04T10:22:54Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt municipal update: new community services and local events now available. Details: https://bit.ly/AudincourtNews2087 Reply STOP to unsubscribe.",
+        "timestamp": "2087-10-09T03:33:53Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, this is City of Audincourt: your community service registration needs renewal. Renew online: https://bit.ly/aud-renew Reply STOP to opt out.",
+        "timestamp": "2087-01-26T23:44:37Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Services",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, municipal notice: Tomorrow's bin collection in Audincourt is delayed. View updated schedule: https://bit.ly/audincourt-info",
+        "timestamp": "2087-10-04T00:32:14Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Hall: Reminder\u2014street cleaning on your street tomorrow. Please move parked vehicles by 7:00 AM to avoid fines. More info: https://bit.ly/audincourt-info",
+        "timestamp": "2087-02-17T08:36:22Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Alain, Audincourt: Reminder \u2014 street cleaning near your area tomorrow. Please move vehicles by 8:00 AM. Info: https://bit.ly/audincourt-clean-2087",
+        "timestamp": "2087-03-27T14:47:49Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "Alain: We detected a login attempt from Audincourt and have locked your Amazon account. Verify identity now to restore access: https://amaz0n-verify.com/secure",
+        "timestamp": "2087-09-06T17:31:32Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Council",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, reminder: Community recycling pickup in Audincourt is Mon 12 Oct 2087. Please place bins at curb by 7AM. More info: https://bit.ly/audincourt2087 Reply STOP to opt-out.",
+        "timestamp": "2087-04-20T14:36:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hello Alain, this is Audincourt City Hall. We're updating resident contact records. Please confirm your address by May 12, 2087 at https://services.audincourt.fr/confirm?ref=2087-0512 Reply STOP to opt out.",
+        "timestamp": "2087-01-31T05:59:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Hi, this is Alain. Thanks \u2014 I'll confirm. Is May 12, 2087 the final deadline or can I update later?",
+        "timestamp": "2087-01-31T06:00:39Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "May 12, 2087 is our primary deadline, but you can update until May 25, 2087. It only takes a couple minutes at https://services.audincourt.fr/update?ref=2087-0525",
+        "timestamp": "2087-01-31T06:04:57Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Thanks. I'll update tonight. If I need help, can I contact someone at the town hall during office hours?",
+        "timestamp": "2087-01-31T06:06:00Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Yes \u2014 our office is open Mon\u2013Fri 09:00\u201317:00. For help use the online chat at https://services.audincourt.fr/support or reply here and we'll assist.",
+        "timestamp": "2087-01-31T06:19:27Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Got it. I updated my address and contact info. I received a confirmation code: 2087-8891. Thanks for the help.",
+        "timestamp": "2087-01-31T06:21:19Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Confirmation 2087-8891 received. We've logged your update. A receipt was emailed to you. Please bring a photo ID or digital pass if you need in-person services.",
+        "timestamp": "2087-01-31T06:25:39Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Perfect, thank you. See you at Audincourt City Hall if needed. Have a good day.",
+        "timestamp": "2087-01-31T06:20:11Z",
+        "suspect": false
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "ALERT: Suspicious sign-in to your Amazon acct from Audincourt. Verify now to avoid lock: https://amaz0n-verify.com/verify/Alain",
+        "timestamp": "2087-05-27T15:24:04Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+18151162635",
+        "content": "Alain, suspicious sign-in to your PayPal from Audincourt. If this wasn't you, secure your account now: https://paypa1-secure.net/verify",
+        "timestamp": "2087-12-23T20:14:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hello Alain, this is Audincourt City Hall. Your registration for the digital records workshop is confirmed for 15 June 2087 at 14:00 at Maison des Associations. Confirm or reschedule: https://audincourt.fr/events/2087-workshop?id=ALN47",
+        "timestamp": "2087-12-05T17:43:08Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "Thanks \u2014 I'll attend. Can you send the workshop materials ahead of time?",
+        "timestamp": "2087-12-05T17:44:56Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Yes. Materials PDF is here: https://audincourt.fr/docs/digital-workshop-2087.pdf Please bring a tablet if available. Need help with directions or transport?",
+        "timestamp": "2087-12-05T17:47:38Z",
+        "suspect": true
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "I'll download them now. What's the full venue address and nearest stop?",
+        "timestamp": "2087-12-05T17:48:53Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Maison des Associations, 12 Rue de la R\u00e9publique, Audincourt. Nearest stop: Gare Routi\u00e8re. We'll send a reminder the day before. Any special accommodations needed?",
+        "timestamp": "2087-12-05T17:48:04Z",
+        "suspect": false
+    },
+    {
+        "sender": "+18151162635",
+        "receiver": "Audincourt City Hall",
+        "content": "All set, no accommodations. See you 15 June 2087 at 14:00. Merci!",
+        "timestamp": "2087-12-05T18:00:28Z",
+        "suspect": false
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Hall invites you to a free office skills workshop for clerks on Sat, 12 Sep 2087. RSVP: https://bit.ly/audincourt2087",
+        "timestamp": "2087-10-05T02:13:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City of Audincourt: Free community workshop for office professionals on skills & wellbeing, Wed 12 May 2087, 18:30 at Salle des F\u00eates. Details & RSVP: https://bit.ly/audincourt2087",
+        "timestamp": "2087-06-10T02:04:52Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Audincourt",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, City of Audincourt: Your library card is due for renewal. Renew online now: https://audincourt.fr/renew. Questions? Reply HELP or call City Hall.",
+        "timestamp": "2087-01-26T21:16:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Town Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt Town Hall: Please note municipal offices will be closed Mon 05 Jan 2087 for system maintenance. Details: https://bit.ly/audincourt-info",
+        "timestamp": "2087-09-02T18:18:29Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, Audincourt City Hall: Please update your resident info for 2087 to keep municipal services active. Quick update: https://bit.ly/aud-update2087 Reply STOP to opt out.",
+        "timestamp": "2087-09-29T05:43:55Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt City Hall",
+        "receiver": "+18151162635",
+        "content": "Alain, City of Audincourt: Reminder \u2014 municipal offices closed Mon for staff training. Online services available at https://bit.ly/audincourt2087",
+        "timestamp": "2087-01-30T18:29:22Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+18151162635",
+        "content": "Alain, unusual sign-in to your Amazon account from Audincourt. Verify now to avoid lock: https://amaz0n-verify.com/verify/Alain2087",
+        "timestamp": "2087-02-11T06:45:56Z",
+        "suspect": true
+    },
+    {
+        "sender": "Audincourt Town Hall",
+        "receiver": "+18151162635",
+        "content": "Hi Alain, reminder: your library card renewal is due 05/03/2087. Renew online: https://audincourt.fr/library or stop by Town Hall. - Audincourt Town Hall",
+        "timestamp": "2087-02-05T21:39:52Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Community Board",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach Design Meetup this Thu 7PM at Rathaus Caf\u00e9. Quick networking for freelance designers. Please RSVP: https://bit.ly/ddesign2087 \u2014 Dietzenbach Community Board",
+        "timestamp": "2087-02-04T08:33:48Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach is hosting a free design workshop for local freelancers on 15/06/2087. RSVP & info: https://bit.ly/dietz-design2087",
+        "timestamp": "2087-07-26T04:21:53Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Arts",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach design meetup tomorrow 6:30pm at City Hall. Quick RSVP: https://bit.ly/dz-design \u2014 helps us save a seat. See you there!",
+        "timestamp": "2087-10-19T08:57:51Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "Karl-Hermann: Unusual login to your PayPal from Dietzenbach. Verify to prevent account suspension: https://paypa1-secure.net/verify/kh-2087 Reply STOP to cancel.",
+        "timestamp": "2087-10-24T21:38:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "URGENT: Karl-Hermann \u2014 suspicious login to your PayPal from Dietzenbach. Verify now or your account will be locked: https://paypa1-secure.net/verify2087",
+        "timestamp": "2087-01-21T22:33:03Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach City Hall",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach City Hall: Free workshop for freelance designers on networking & local grants. RSVP to save a seat: https://bit.ly/dietz-design Reply HELP for info.",
+        "timestamp": "2087-02-11T15:15:48Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Services",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, friendly reminder: your freelance studio listing will auto-renew on 05/11/2087. Review or update details: https://bit.ly/dietz-studio Reply HELP for info.",
+        "timestamp": "2087-12-03T21:15:03Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, the Dietzenbach Freelance Designers meetup has updated details. See & RSVP: https://bit.ly/dietz-design",
+        "timestamp": "2087-10-17T19:02:02Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, City of Dietzenbach: Reminder - freelancer design workshop next week. RSVP & details: https://bit.ly/dietzenbach-workshop2087",
+        "timestamp": "2087-06-11T09:29:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, quick reminder: the Dietzenbach design market is this Sat 10am-4pm. Free entry & artist sign-up: https://bit.ly/dietz-market",
+        "timestamp": "2087-04-15T11:26:20Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, City of Dietzenbach: Free coworking day for local freelancers at Town Hall this Fri 09:00\u201316:00. Space limited \u2014 RSVP: https://dietzenbach.de/freelance-coworking",
+        "timestamp": "2087-05-03T09:40:14Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, join a Freelance Creatives meet-up in Dietzenbach next Thu at 7pm. RSVP & details: https://bit.ly/DietzMeet2087",
+        "timestamp": "2087-07-22T04:45:54Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "ALERT: Karl-Hermann, unusual login to your PayPal from Dietzenbach. Verify identity now to prevent lockout: https://paypa1-secure.net/verify/KH2087",
+        "timestamp": "2087-12-10T23:30:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Co-Work",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 your hot-desk is reserved Mon 12 Apr 2087, 09:00\u201317:00 at Hauptstr. 24, Dietzenbach. Reply YES to confirm or CHANGE to reschedule. Details: https://dietzenbach-cowork.com/book/2087-04-12/KH55",
+        "timestamp": "2087-06-03T16:38:49Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Work",
+        "content": "Yes, confirmed. I'll take the slot. Please add a projector if available.",
+        "timestamp": "2087-06-03T16:43:46Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Co-Work",
+        "receiver": "+13991359740",
+        "content": "Projector available. Reply PROJ to add it to your booking (\u20ac8/day). To view or pay: https://dietzenbach-cowork.com/manage/KH55",
+        "timestamp": "2087-06-03T16:47:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Work",
+        "content": "PROJ \u2014 please add it. Also, is there onsite parking or bike storage?",
+        "timestamp": "2087-06-03T16:53:46Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Co-Work",
+        "receiver": "+13991359740",
+        "content": "Projector added. We have limited onsite parking (\u20ac3/day) and free bike storage in the back. Reply PAY to pay now or PAY-ON-ARRIVAL.",
+        "timestamp": "2087-06-03T16:44:01Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Work",
+        "content": "Pay-on-arrival is fine. One more thing \u2014 any quiet zones for client calls?",
+        "timestamp": "2087-06-03T16:43:59Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Co-Work",
+        "receiver": "+13991359740",
+        "content": "Yes \u2014 Quiet Zone B on 2nd floor reserved for calls. We'll mark it with your name for 12 Apr 2087. See you then, Karl-Hermann!",
+        "timestamp": "2087-06-03T16:56:31Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Work",
+        "content": "Great, thanks! See you 12 Apr 2087. \u2014 Karl-Hermann",
+        "timestamp": "2087-06-03T17:04:22Z",
+        "suspect": false
+    },
+    {
+        "sender": "DHL Express",
+        "receiver": "+13991359740",
+        "content": "DHL Express: Hi Karl-Hermann, we have a parcel for you in Dietzenbach. Can we deliver on 12 May 2087 between 10:00\u201313:00? Reply YES to confirm or RESCH to reschedule. Track: https://www.dhl.com/track?AWB=2087-987654",
+        "timestamp": "2087-10-16T03:38:24Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "DHL Express",
+        "content": "Yes please, 10:00\u201313:00 works. I\u2019ll be home in Dietzenbach. Thanks.",
+        "timestamp": "2087-10-16T03:41:41Z",
+        "suspect": false
+    },
+    {
+        "sender": "DHL Express",
+        "receiver": "+13991359740",
+        "content": "Thanks. If you'd prefer delivery after 12:00 or to a pickup point, reply AFTER12 or PICKUP. Manage: https://www.dhl.com/reschedule?ref=2087-987654",
+        "timestamp": "2087-10-16T03:42:12Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "DHL Express",
+        "content": "Can you do AFTER12? If no one\u2019s home, please leave with my neighbor at Mainstr. 7.",
+        "timestamp": "2087-10-16T03:47:51Z",
+        "suspect": false
+    },
+    {
+        "sender": "DHL Express",
+        "receiver": "+13991359740",
+        "content": "Noted \u2014 we'll aim for 14:00\u201318:00 on 12 May 2087 and leave with your neighbor if no answer. No signature required for this shipment.",
+        "timestamp": "2087-10-16T03:46:52Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "DHL Express",
+        "content": "Great, thanks. Any customs or extra fee I should expect?",
+        "timestamp": "2087-10-16T03:46:09Z",
+        "suspect": false
+    },
+    {
+        "sender": "DHL Express",
+        "receiver": "+13991359740",
+        "content": "No extra fees on this delivery. If anything changes you\u2019ll get an update. Track live: https://www.dhl.com/track?AWB=2087-987654",
+        "timestamp": "2087-10-16T04:08:12Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "DHL Express",
+        "content": "Perfect, appreciate the update. See you then.",
+        "timestamp": "2087-10-16T03:55:47Z",
+        "suspect": false
+    },
+    {
+        "sender": "DHL Express",
+        "receiver": "+13991359740",
+        "content": "Delivery scheduled 12 May 2087, 14:00\u201318:00. Driver will leave a photo confirmation at drop-off. Questions? Reply HELP.",
+        "timestamp": "2087-10-16T04:16:24Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "DHL Express",
+        "content": "All set. Thanks DHL!",
+        "timestamp": "2087-10-16T03:49:57Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Community",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Freelancers Meetup in Dietzenbach this Wed 7 PM at Town Hall. RSVP: https://bit.ly/dzb-meet Reply YES to confirm.",
+        "timestamp": "2087-05-06T13:27:14Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, new design resources and local freelancer support are now available from City of Dietzenbach. Details: https://dietzenbach.de/support Reply STOP to opt out.",
+        "timestamp": "2087-05-26T05:44:36Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Co-Working",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, your hot desk reservation at Dietzenbach Co-Working is set for tomorrow from 09:00\u201313:00. Confirm? Details: https://dietzenbach-cowork.space/reservations/2087-KH",
+        "timestamp": "2087-08-13T19:46:40Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Working",
+        "content": "Thanks \u2014 that works. Please hold the desk until 10:00. I'll bring my rig and would like a monitor. \u2014Karl-Hermann",
+        "timestamp": "2087-08-13T19:48:57Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Co-Working",
+        "receiver": "+13991359740",
+        "content": "Confirmed: desk held until 10:00. We can set up a 27\" monitor on arrival. Change details: https://dietzenbach-cowork.space/modify/2087-KH",
+        "timestamp": "2087-08-13T19:53:52Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Co-Working",
+        "content": "Perfect, 27\" monitor is great. I'll check in at the main desk when I arrive. See you tomorrow. \u2014Karl-Hermann",
+        "timestamp": "2087-08-13T19:59:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "ALERT",
+        "receiver": "+13991359740",
+        "content": "Sorry Karl-Hermann \u2014 I can\u2019t help create phishing messages. I can help draft a security-awareness example or show how to spot scams. Reply YES for safe guidance.",
+        "timestamp": "2087-12-01T19:15:29Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, reminder: Dietzenbach Design Meetup this Sat at 6 PM at Kulturhaus. Confirm your spot: https://bit.ly/dietz-design2087 Reply STOP to opt out.",
+        "timestamp": "2087-01-05T20:11:32Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "URGENT Karl-Hermann: Unusual login to your PayPal from Dietzenbach. Verify now or your account will be locked: https://paypa1-secure.net/verify/kh",
+        "timestamp": "2087-06-03T03:46:17Z",
+        "suspect": true
+    },
+    {
+        "sender": "Design Digest",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, congrats\u2014your portfolio was featured in the Dietzenbach Designers roundup. See it: https://bit.ly/dd-designs",
+        "timestamp": "2087-03-10T09:37:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach City",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, free freelancer co-working day at Dietzenbach City Hall this Friday 10:00-16:00. Reserve your spot: https://dietzenbach.de/rsvp",
+        "timestamp": "2087-03-01T03:53:49Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach CoWork",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, your Dietzenbach CoWork booking for 08/15/2087 at 10:00 is confirmed. See details & map: https://bit.ly/dwspace2087",
+        "timestamp": "2087-10-11T05:39:34Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach City",
+        "receiver": "+13991359740",
+        "content": "Karl-Hermann, Dietzenbach Design Hub: registration open. Info session 15 Mar 2087. Confirm here: https://dietzenbach.de/designhub",
+        "timestamp": "2087-05-20T10:15:30Z",
+        "suspect": true
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+13991359740",
+        "content": "URGENT Karl-Hermann: Suspicious sign-in detected from Dietzenbach. Verify your account now to prevent lock: https://amaz0n-verify.com/2087/kh",
+        "timestamp": "2087-11-06T07:40:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 this is Dietzenbach Makerspace. Your project bench is available on 15 Jun 2087 from 10:00\u201316:00. Reply YES to confirm or let us know if you need a different slot. Details: https://dietzenbachmakers.de/booking/KB-2087",
+        "timestamp": "2087-06-25T07:24:45Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Thanks \u2014 yes, I\u2019ll take the 15 Jun 2087 slot, 10:00\u201316:00. Can I use the laser cutter during that time?",
+        "timestamp": "2087-06-25T07:28:27Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Confirmed. Laser cutter access is available but requires a short safety check on arrival and a signed waiver. Bring an ID. Waiver link: https://dietzenbachmakers.de/waiver/2087",
+        "timestamp": "2087-06-25T07:34:01Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Perfect \u2014 I\u2019ll arrive around 9:50 for the check. Is there a place to store materials while I work?",
+        "timestamp": "2087-06-25T07:31:06Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Yes, small lockers by the east wall are free; leave a note with your name. For larger storage, email support@dietzenbachmakers.de before 15 Jun 2087 and we\u2019ll arrange space.",
+        "timestamp": "2087-06-25T07:37:21Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Great, that works. See you 15 Jun 2087 \u2014 thanks! \u2014 Karl-Hermann",
+        "timestamp": "2087-06-25T07:40:10Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, join a free networking event for freelance designers in Dietzenbach. Reserve your spot: https://dietzenbach.de/events/rsvp",
+        "timestamp": "2087-05-09T01:50:58Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "URGENT: Karl-Hermann, suspicious login attempt on your PayPal from Dietzenbach. Verify now to avoid account lock: https://paypa1-secure.net/verify/KH2087",
+        "timestamp": "2087-02-17T23:05:36Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach City",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach City: Reminder\u2014Freelance Designers meetup 05/09/2087, 18:30 at Kulturhaus. RSVP/details: https://bit.ly/dietz-design",
+        "timestamp": "2087-08-05T10:04:25Z",
+        "suspect": true
+    },
+    {
+        "sender": "Meetup",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 Reminder: Design Networking in Dietzenbach tomorrow 6:30 PM. Please RSVP: https://meetup.com/design-hub/events/2087-rsvp",
+        "timestamp": "2087-01-23T00:07:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 your reserved desk for the collaborative session is set for 15 May 2087 at 10:00. Please confirm. Map: https://maps.google.com/?q=50.0167,8.7833 Details: https://dietzenbach-makerspace.org/schedule?ref=KH2087",
+        "timestamp": "2087-06-20T04:45:46Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Thanks \u2014 I can make that time. Please confirm the slot and I\u2019ll bring my portfolio and a portable tablet.",
+        "timestamp": "2087-06-20T04:47:53Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Confirmed for 15 May 2087 at 10:00. Desk A3 saved under your name. You can modify if needed: https://dietzenbach-makerspace.org/mybookings?ref=KH2087",
+        "timestamp": "2087-06-20T04:49:08Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Great, thanks. Quick question \u2014 is there parking nearby or should I allow extra time to find a spot?",
+        "timestamp": "2087-06-20T04:58:13Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Makerspace",
+        "receiver": "+13991359740",
+        "content": "Parking on-site is limited. Street parking is available along Bahnhofstr. Recommended to arrive 10\u201315 min early. Bring an ID for check-in.",
+        "timestamp": "2087-06-20T04:57:18Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Makerspace",
+        "content": "Understood. I\u2019ll arrive early and bring ID. Looking forward to the session!",
+        "timestamp": "2087-06-20T05:02:31Z",
+        "suspect": false
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, City of Dietzenbach: Reminder about a local freelancers' networking drop-in this Thurs at 18:00, Civic Hub. More info & RSVP: https://bit.ly/dietz-freelance87",
+        "timestamp": "2087-12-28T15:34:17Z",
+        "suspect": true
+    },
+    {
+        "sender": "Studio Lumen",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Studio Lumen here. We liked your portfolio and have a short freelance brief. Are you free for a 20\u201330 min call next week? Pick a slot: https://calendly.com/studiolumen/consult-2087",
+        "timestamp": "2087-10-15T00:21:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Studio Lumen",
+        "content": "Hi \u2014 thanks! I'm available Tue or Thu afternoons. I can do a 30-min call. Do you need anything from me beforehand?",
+        "timestamp": "2087-10-15T00:22:26Z",
+        "suspect": false
+    },
+    {
+        "sender": "Studio Lumen",
+        "receiver": "+13991359740",
+        "content": "Great \u2014 how about Thu at 15:00 CEST? Confirm via this link: https://calendly.com/studiolumen/consult-2087 or reply 'Confirm'. We'll share the brief ahead of time.",
+        "timestamp": "2087-10-15T00:30:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Studio Lumen",
+        "content": "Confirm. Thu 15:00 CEST works. Please send the brief and any brand assets \u2014 I prefer a Figma invite if possible.",
+        "timestamp": "2087-10-15T00:32:55Z",
+        "suspect": false
+    },
+    {
+        "sender": "Studio Lumen",
+        "receiver": "+13991359740",
+        "content": "Confirmed. Brief sent to your email and I invited you to Figma: https://www.figma.com/file/ABCDEFG/project-2087. Calendar invite has the meeting link.",
+        "timestamp": "2087-10-15T00:40:31Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Studio Lumen",
+        "content": "Got the email, Figma invite and calendar event. I'll review and prepare initial concepts for the call.",
+        "timestamp": "2087-10-15T00:29:17Z",
+        "suspect": false
+    },
+    {
+        "sender": "Studio Lumen",
+        "receiver": "+13991359740",
+        "content": "Perfect \u2014 if you need to reschedule, use the Calendly link or reply here. We'll cover scope, budget range and timeline in the call.",
+        "timestamp": "2087-10-15T00:41:01Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Studio Lumen",
+        "content": "Sounds good. I'll have a rough rate estimate ready and any questions about scope. Thanks \u2014 looking forward to it.",
+        "timestamp": "2087-10-15T00:29:10Z",
+        "suspect": false
+    },
+    {
+        "sender": "Studio Lumen",
+        "receiver": "+13991359740",
+        "content": "Thanks, Karl-Hermann. See you Thu 2087 at 15:00 CEST. We'll keep it to 30 minutes.",
+        "timestamp": "2087-10-15T00:57:31Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Studio Lumen",
+        "content": "See you Thu 2087 at 15:00 CEST. Thanks for the clear brief and invite.",
+        "timestamp": "2087-10-15T00:44:13Z",
+        "suspect": false
+    },
+    {
+        "sender": "Co-Working Space Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Co-Working Space Dietzenbach: Hi Karl-Hermann, Meeting Room A is available July 14, 2087 at 10:00. Reply YES to confirm or request a change. Details: https://calendly.com/dietzenbach-cowork/2087-07-14",
+        "timestamp": "2087-10-26T20:07:00Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Co-Working Space Dietzenbach",
+        "content": "Hi \u2014 can we move it to 11:30 instead? I have a client call at 10. If 11:30 works I'll confirm.",
+        "timestamp": "2087-10-26T20:09:50Z",
+        "suspect": false
+    },
+    {
+        "sender": "Co-Working Space Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Thanks, Karl-Hermann. 11:30 is free. I've tentatively held Room A until you confirm. Confirm with 'YES 11:30' or cancel here: https://calendly.com/dietzenbach-cowork/2087-07-14",
+        "timestamp": "2087-10-26T20:10:04Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Co-Working Space Dietzenbach",
+        "content": "YES 11:30 \u2014 confirmed. Could you also set the projector on? I'll bring a physical portfolio.",
+        "timestamp": "2087-10-26T20:10:30Z",
+        "suspect": false
+    },
+    {
+        "sender": "Co-Working Space Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Confirmed: projector will be set. Room available for setup at 11:15. If you need a parking pass, reply PARK. Details: https://calendly.com/dietzenbach-cowork/2087-07-14",
+        "timestamp": "2087-10-26T20:16:12Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Co-Working Space Dietzenbach",
+        "content": "Perfect, thanks. See you July 14, 2087 at 11:30. \u2014 Karl-Hermann",
+        "timestamp": "2087-10-26T20:19:45Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, local design meetup in Dietzenbach on 12 Jun 2087, 7pm at Makerspace. RSVP & details: https://bit.ly/dd-meetup2087",
+        "timestamp": "2087-01-21T13:01:38Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hello Karl-Hermann, City of Dietzenbach: Please review and update your local services contact info to keep records current. Update: https://bit.ly/dietz-contact",
+        "timestamp": "2087-04-18T09:05:06Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, reminder: Design Meetup in Dietzenbach on 08/05/2087 at 6:00 PM at the Community Hub. Please RSVP: https://bit.ly/dietz-design",
+        "timestamp": "2087-12-08T03:44:33Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach Community Market has vendor spots open this Sat. Reply YES to reserve or view details: https://bit.ly/dietz-market87",
+        "timestamp": "2087-07-01T20:23:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach Creative Meetup for freelance designers this Sat 6PM. Free entry. RSVP & details: https://bit.ly/dzbfmeet2087",
+        "timestamp": "2087-07-28T22:35:51Z",
+        "suspect": true
+    },
+    {
+        "sender": "Deutsche Bank Security",
+        "receiver": "+13991359740",
+        "content": "Karl-Hermann, suspicious login to your DeutscheBank app from Dietzenbach. Verify to avoid suspension: http://deutschebank-secure2087.com/verify (expires 08/22/2087)",
+        "timestamp": "2087-03-21T08:37:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, design meetup for freelance creatives in Dietzenbach this Thu 7PM at Kulturhaus. RSVP & details: https://bit.ly/dz-designs",
+        "timestamp": "2087-03-25T06:26:46Z",
+        "suspect": true
+    },
+    {
+        "sender": "CoWork Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 your private desk is confirmed for 15 Apr 2087, 10:00\u201316:00. Details & check-in: https://cowork-dietzenbach.de/booking/2087-04-15",
+        "timestamp": "2087-07-31T00:54:08Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "CoWork Dietzenbach",
+        "content": "Thanks \u2014 could I extend the booking to 18:00 that day?",
+        "timestamp": "2087-07-31T00:58:16Z",
+        "suspect": false
+    },
+    {
+        "sender": "CoWork Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Yes, we can extend to 18:00. Small surcharge applies. Confirm here and we\u2019ll update: https://cowork-dietzenbach.de/manage/2087-04-15",
+        "timestamp": "2087-07-31T01:04:00Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "CoWork Dietzenbach",
+        "content": "Please extend it to 18:00 and charge the card on file.",
+        "timestamp": "2087-07-31T01:01:23Z",
+        "suspect": false
+    },
+    {
+        "sender": "CoWork Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "All set \u2014 extended to 18:00 on 15 Apr 2087. Receipt: https://cowork-dietzenbach.de/receipt/INV-2087-0415-77",
+        "timestamp": "2087-07-31T01:11:28Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "CoWork Dietzenbach",
+        "content": "Great \u2014 can you reserve a monitor and a standing desk? I\u2019ll be doing client mockups.",
+        "timestamp": "2087-07-31T01:18:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "CoWork Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Reserved: 27\" monitor + standing desk. Please arrive ~10 min early for setup. Location: Hauptstr. 1, Dietzenbach.",
+        "timestamp": "2087-07-31T01:10:38Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "CoWork Dietzenbach",
+        "content": "Perfect, thanks \u2014 see you on the 15th. \u2014Karl-Hermann",
+        "timestamp": "2087-07-31T01:25:03Z",
+        "suspect": false
+    },
+    {
+        "sender": "Amazon Security",
+        "receiver": "+13991359740",
+        "content": "Karl-Hermann: Suspicious sign-in to your Amazon account from Dietzenbach. Verify now to avoid suspension: https://amaz0n-verify.com/confirm?user=KH&yr=2087",
+        "timestamp": "2087-12-09T09:02:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "Alert Karl-Hermann: Suspicious login detected for your PayPal from Dietzenbach. Your account has been temporarily locked. Verify now to restore access: https://paypa1-secure.net/verify?u=KH2087",
+        "timestamp": "2087-05-17T05:47:46Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Freelance Hub",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann \u2014 quick reminder: your desk reservation for Mon, 12 Jul 2087 is pending. Reply 'OK' to keep it or 'RES' to change.",
+        "timestamp": "2087-12-26T03:56:08Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Freelance Hub",
+        "content": "OK \u2014 keep it. I'll arrive around 09:00 and work until about 14:00.",
+        "timestamp": "2087-12-26T04:00:51Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Freelance Hub",
+        "receiver": "+13991359740",
+        "content": "Confirmed. Need a meeting room between 11:00\u201312:00? Book here: https://dietzenbach-hub.de/book/room/2087",
+        "timestamp": "2087-12-26T03:58:26Z",
+        "suspect": true
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Freelance Hub",
+        "content": "Yes, please check Room A for 11:00\u201312:00 and hold it if available.",
+        "timestamp": "2087-12-26T04:10:05Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Freelance Hub",
+        "receiver": "+13991359740",
+        "content": "Room A is available at \u20ac12/hr. I've held it for 30 minutes. Reply 'YES' to confirm, 'NO' to cancel.",
+        "timestamp": "2087-12-26T04:08:08Z",
+        "suspect": false
+    },
+    {
+        "sender": "+13991359740",
+        "receiver": "Dietzenbach Freelance Hub",
+        "content": "YES \u2014 confirm Room A 11:00\u201312:00. Thanks, see you at the Hub.",
+        "timestamp": "2087-12-26T04:05:48Z",
+        "suspect": false
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, join Dietzenbach Creatives meetup for freelancers Tues 12 Aug 2087, 6:30 PM. Network & portfolio reviews. RSVP: https://bit.ly/DietzMeet",
+        "timestamp": "2087-04-13T16:45:32Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hello Karl-Hermann, Dietzenbach community: Free workshop for freelance designers on May 17, 2087. Register: https://bit.ly/dietzwrk",
+        "timestamp": "2087-06-29T11:06:41Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, City of Dietzenbach invites local artists to the Community Art Fair Sat 10:00\u201316:00. Register by 05/06/2087: https://bit.ly/dietz-art2087 Info: dietzenbach.de/events",
+        "timestamp": "2087-04-27T08:06:59Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, local meetup for freelance designers in Dietzenbach on 06/12/2087 at 18:30. Free, bring your portfolio. RSVP: https://bit.ly/dtz-design2087 Reply STOP to opt-out.",
+        "timestamp": "2087-01-13T07:01:53Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, Dietzenbach Creative Hub invites local freelancers to a networking meetup on 12 Aug 2087, 6:30pm at Kulturhaus. RSVP: https://dietzenbach.de/events/creative-hub",
+        "timestamp": "2087-07-24T11:57:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "City of Dietzenbach",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, City of Dietzenbach update for 2087: local events, services & freelancer resources for designers. Details: https://bit.ly/dietz2087 Reply STOP to opt out.",
+        "timestamp": "2087-05-23T02:31:39Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+13991359740",
+        "content": "PayPal Security: Karl-Hermann, we blocked a login from Dietzenbach. Verify identity now to restore access: https://paypa1-secure.net/verify-2087",
+        "timestamp": "2087-05-23T12:47:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Dietzenbach City Events",
+        "receiver": "+13991359740",
+        "content": "Hi Karl-Hermann, local design market in Dietzenbach this Sat \u2014 free booth space for freelance designers. Interested? Details & sign-up: https://dietzenbach.de/events",
+        "timestamp": "2087-11-25T18:32:48Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, roadworks near Hampstead High St tomorrow 7-10am may delay pickups. Check live route updates: https://bit.ly/rs-hampstead-2087 - RideShare Support",
+        "timestamp": "2087-07-24T19:31:22Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead: scheduled roadworks on High St may affect pickups today. Allow extra time. Details: https://bit.ly/hamp-roadworks - Hampstead Council",
+        "timestamp": "2087-06-19T01:00:17Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, demand surge in Hampstead tonight 6\u20139pm. Extra fares expected\u2014consider logging on. Live updates: https://bit.ly/rs-hampstead",
+        "timestamp": "2087-03-01T09:30:37Z",
+        "suspect": true
+    },
+    {
+        "sender": "Netflix Billing",
+        "receiver": "+12918009249",
+        "content": "Tracy: Your Netflix subscription renewal failed. Update payment to avoid service suspension. Verify card now: https://netfl1x-bill.com/renew",
+        "timestamp": "2087-05-04T19:17:30Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "URGENT Tracy: Suspicious sign-in to your Uber account from Hampstead. Verify now to avoid suspension: https://ub3r-verify.com/confirm",
+        "timestamp": "2087-04-02T21:08:19Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Tracy, quick reminder: complete the Hampstead driver safety refresher by end of week. It takes 5 mins. Start here: https://bit.ly/hs-driver-ref Reply HELP for assistance.",
+        "timestamp": "2087-05-16T01:23:34Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Driver",
+        "receiver": "+12918009249",
+        "content": "Tracy, surge expected in Hampstead tonight 6\u20139pm. High demand near Hampstead Heath \u2014 log in to see hotspots and get priority rides: https://bit.ly/ubhampstead",
+        "timestamp": "2087-02-25T21:43:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead High St roadworks tomorrow 8am\u20134pm. Expect delays\u2014please plan alternate routes. More info: https://bit.ly/hampstead2087",
+        "timestamp": "2087-08-11T12:35:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "CityRide Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, your weekly earnings summary is ready. View details and tips: https://bit.ly/cityride-summary Reply HELP for support.",
+        "timestamp": "2087-06-10T15:53:19Z",
+        "suspect": true
+    },
+    {
+        "sender": "Lyft Driver Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, your weekly earnings summary for Hampstead rides is ready. View details: https://bit.ly/lyft-payouts-2087",
+        "timestamp": "2087-11-07T18:37:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Co",
+        "receiver": "+12918009249",
+        "content": "Tracy, high rider demand in Hampstead tonight 6\u20139pm. Log in to accept rides for higher fares and bonuses. Details: https://bit.ly/rs-hamp",
+        "timestamp": "2087-03-01T14:01:28Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead demand surge 4-8 PM today. Earn 1.5x fares in your area. Opt in for rides now: https://bit.ly/uber-hampstead",
+        "timestamp": "2087-10-23T06:55:14Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "Tracy, urgent: Your Uber driver account was flagged for unusual activity in Hampstead. Verify now to avoid suspension: https://ub3r-verify2087.com/secure",
+        "timestamp": "2087-05-11T01:36:57Z",
+        "suspect": true
+    },
+    {
+        "sender": "LiftNow Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 Surge alert in Hampstead tonight 7\u201310pm (12 Sep 2087). Fares +60%. View heat map: https://maps.google.com/?q=51.5541,-0.1744 Reply YES to opt in.",
+        "timestamp": "2087-12-29T15:52:34Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "LiftNow Support",
+        "content": "Yes please, I can do 7\u201310pm. Any pick-up hotspots near Frognal?",
+        "timestamp": "2087-12-29T15:55:47Z",
+        "suspect": false
+    },
+    {
+        "sender": "LiftNow Support",
+        "receiver": "+12918009249",
+        "content": "Great \u2014 Frognal hotspot near Hampstead High St, approx 51.5555,-0.1760. Live map: https://dashboard.liftnow.app/driver/heat?lat=51.5555&lng=-0.1760 Bonus confirmed at end of shift.",
+        "timestamp": "2087-12-29T16:02:26Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "LiftNow Support",
+        "content": "One quick Q \u2014 does the bonus apply to shared rides?",
+        "timestamp": "2087-12-29T16:05:52Z",
+        "suspect": false
+    },
+    {
+        "sender": "LiftNow Support",
+        "receiver": "+12918009249",
+        "content": "Yes, bonus applies to all completed trips during the surge window, including shared rides, when trip ends inside the surge zone. See terms: https://liftnow.app/terms#surge",
+        "timestamp": "2087-12-29T16:05:42Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "LiftNow Support",
+        "content": "Thanks. I\u2019ll sign in around 6:50pm to prep. Any recommended pickup spots?",
+        "timestamp": "2087-12-29T16:12:09Z",
+        "suspect": false
+    },
+    {
+        "sender": "LiftNow Support",
+        "receiver": "+12918009249",
+        "content": "Try Flask Walk carpark, Hampstead Heath gate, and the station forecourt \u2014 they clear fast. Drive safe, Tracy. Final reminder will send at 6:45pm (12 Sep 2087).",
+        "timestamp": "2087-12-29T16:16:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "LiftNow Support",
+        "content": "Perfect, thanks. See you on the road.",
+        "timestamp": "2087-12-29T16:27:34Z",
+        "suspect": false
+    },
+    {
+        "sender": "ZipRide Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 thanks for driving in Hampstead. Quick note: there's a 1.5x bonus for pickups in NW Hampstead this week. Reply YES to enable surge alerts.",
+        "timestamp": "2087-12-10T07:10:25Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "ZipRide Support",
+        "content": "Hi \u2014 sounds good. Yes please enable surge alerts for NW Hampstead. Any tips for peak times?",
+        "timestamp": "2087-12-10T07:13:15Z",
+        "suspect": false
+    },
+    {
+        "sender": "ZipRide Support",
+        "receiver": "+12918009249",
+        "content": "Done \u2014 surge alerts enabled. Peak times are 07:00\u201310:00 and 17:00\u201320:00 local. We'll send live alerts. More info: https://support.zipride.com/hampstead-bonus",
+        "timestamp": "2087-12-10T07:12:59Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "ZipRide Support",
+        "content": "Got it, thanks. Also, my vehicle inspection is due \u2014 when's the next available slot in Hampstead?",
+        "timestamp": "2087-12-10T07:21:55Z",
+        "suspect": false
+    },
+    {
+        "sender": "ZipRide Support",
+        "receiver": "+12918009249",
+        "content": "Next inspection slots in Hampstead: 10/15/2087 and 10/22/2087. Book here: https://support.zipride.com/inspections/hampstead",
+        "timestamp": "2087-12-10T07:30:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "ZipRide Support",
+        "content": "Please book me for 10/15/2087 morning slot. Which documents should I bring?",
+        "timestamp": "2087-12-10T07:22:25Z",
+        "suspect": false
+    },
+    {
+        "sender": "ZipRide Support",
+        "receiver": "+12918009249",
+        "content": "Booked for 10/15/2087 at 09:30, Hampstead Inspection Center. Bring driver's license, vehicle registration, and EV battery certificate if applicable. Map: https://maps.google.com/?q=Hampstead+Inspection",
+        "timestamp": "2087-12-10T07:32:19Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "ZipRide Support",
+        "content": "Perfect, I'll be there. One more thing \u2014 any changes to payout schedule this month?",
+        "timestamp": "2087-12-10T07:26:45Z",
+        "suspect": false
+    },
+    {
+        "sender": "ZipRide Support",
+        "receiver": "+12918009249",
+        "content": "No changes. Weekly payouts process every Tuesday. Your next payout will post on 10/20/2087. View details: https://dashboard.zipride.com/payouts",
+        "timestamp": "2087-12-10T07:40:57Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "ZipRide Support",
+        "content": "Thanks, appreciate the help. See you 10/15/2087.",
+        "timestamp": "2087-12-10T07:51:58Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Tracy: Roadworks on High St, Hampstead will cause delays 7am\u20135pm tomorrow. Expect detours\u2014plan alternate route. More info: https://bit.ly/hamp-road67",
+        "timestamp": "2087-03-05T10:56:03Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Driver",
+        "receiver": "+12918009249",
+        "content": "Tracy, updated peak hours & fare rates for Hampstead take effect 01/06/2087. See details & FAQs: https://bit.ly/uber-hampstead-2087",
+        "timestamp": "2087-09-17T11:15:38Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 25% peak bonus for Hampstead drivers tonight 6\u20139pm. Tap to accept and view hotspots: https://drivers.ridelink.com/2087/hampstead",
+        "timestamp": "2087-12-08T14:52:08Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "I'll take it. I'll be available 6\u20139pm \u2014 any high-demand pickup spots in Hampstead?",
+        "timestamp": "2087-12-08T14:54:51Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Thanks Tracy \u2014 prioritize Hampstead High St, Hampstead Station and Flask Walk. Live demand map: https://drivers.ridelink.com/map?area=Hampstead&yr=2087",
+        "timestamp": "2087-12-08T15:00:04Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Perfect \u2014 heading to High St now and will clock in when I arrive. Appreciate the heads-up.",
+        "timestamp": "2087-12-08T14:58:53Z",
+        "suspect": false
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "Tracy: Suspicious activity detected on your Uber account in Hampstead. Verify now to avoid suspension: https://uber-secure-verify.net/Tracy2087",
+        "timestamp": "2087-10-11T04:38:03Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead traffic alert: temporary lane closures on High St causing delays for drivers through 2087. Check alternate routes & live updates: https://bit.ly/hamp-alert2087",
+        "timestamp": "2087-04-09T15:18:28Z",
+        "suspect": true
+    },
+    {
+        "sender": "CityDrive Security",
+        "receiver": "+12918009249",
+        "content": "Tracy, urgent: your CityDrive payout is on hold. Verify your driver account now to release funds or service will be suspended: https://citydriv3-verify.com/verify/Tracy",
+        "timestamp": "2087-12-07T13:48:15Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, reminder: vehicle inspection for Hampstead drivers set for 06/15/2087. Please confirm or reschedule: https://bit.ly/RS-confirm. Reply HELP for info.",
+        "timestamp": "2087-12-13T06:20:10Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Tracy: Roadworks near Hampstead High St may affect pickups 08:00\u201316:00 today. Expect minor delays; please plan alternate routes. More info: https://bit.ly/hampstead2087",
+        "timestamp": "2087-11-12T20:43:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead High St has roadworks 07:00\u201318:00 today; pickups may be delayed. Please allow extra time. Details: https://bit.ly/hampstead-road",
+        "timestamp": "2087-06-04T14:47:05Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Driver",
+        "receiver": "+12918009249",
+        "content": "Tracy, high-demand zone active in Hampstead 7\u201310PM tonight. Expect surge fares. See details in Driver Hub: https://uber.com/driver/hampstead",
+        "timestamp": "2087-10-08T00:00:53Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "Tracy: Suspicious login to your Uber/RideShare account detected in Hampstead. Verify now or your account will be locked: https://ub3r-secure-verify.net/confirm/Tracy2087",
+        "timestamp": "2087-06-05T10:26:46Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hampstead Council: Hi Tracy \u2014 curbside pickup permits for ride-share drivers are open for renewal. To renew for 2087, visit https://hampstead.gov.uk/permits or reply YES and we'll send next steps.",
+        "timestamp": "2087-04-18T15:39:06Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Council",
+        "content": "Hi, thanks. Is renewal free for ride-share drivers? I do most pickups around Hampstead High St.",
+        "timestamp": "2087-04-18T15:42:34Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Yes \u2014 renewal is free for licensed drivers. Once approved it\u2019s valid through 31 Dec 2087. Upload your license & vehicle info here: https://hampstead.gov.uk/permits/upload",
+        "timestamp": "2087-04-18T15:46:16Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Council",
+        "content": "Okay, I'll upload tonight. If I keep working before approval, could I get fined?",
+        "timestamp": "2087-04-18T15:50:27Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "There\u2019s a grace period if you submit a renewal request. Apply by 15 Jun 2087 to avoid fines; keep your submission receipt as proof.",
+        "timestamp": "2087-04-18T15:48:34Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Council",
+        "content": "Great \u2014 submitting now from Hampstead. Please text when it's approved. Thanks!",
+        "timestamp": "2087-04-18T15:54:01Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare App",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead High St closure 9am\u20131pm today may affect pickups. See suggested detours & fare updates: https://bit.ly/hampstead-route",
+        "timestamp": "2087-08-15T16:05:54Z",
+        "suspect": true
+    },
+    {
+        "sender": "PayPal Security",
+        "receiver": "+12918009249",
+        "content": "Tracy: Unusual activity detected on your PayPal from Hampstead. Your account is temporarily limited. Verify now to restore access: https://paypa1-secure.net/verify/Tracy2087",
+        "timestamp": "2087-12-12T07:46:50Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Tracy, planned roadworks on High St, Hampstead on 12 May 2087, 10:00\u201316:00. Expect delays in your area. Please plan alternate routes. Info: https://bit.ly/hamp-road87",
+        "timestamp": "2087-09-19T17:13:41Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, heads-up: Heath St in Hampstead closed 8-11pm tonight for maintenance. Expect delays; use alternate routes. Details: https://bit.ly/HampsteadAlert2087",
+        "timestamp": "2087-03-28T23:59:16Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Events Office",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 Hampstead Festival is June 12, 2087. We need local drivers for 6\u20139pm shifts with a fare bonus. Can you cover one? Sign up: https://hampstead.gov.uk/drivers",
+        "timestamp": "2087-02-13T10:19:56Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Events Office",
+        "content": "Hi \u2014 I can do 6\u20139pm on June 12. Any vehicle checks or paperwork I should bring?",
+        "timestamp": "2087-02-13T10:23:45Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Events Office",
+        "receiver": "+12918009249",
+        "content": "Great, thanks! Please complete a quick vehicle check (lights, tyres, insurance) and bring your driver ID. Meet at Hampstead Green at 5:45pm. Checklist: https://hampstead.gov.uk/vehicle-check",
+        "timestamp": "2087-02-13T10:27:20Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Events Office",
+        "content": "Got it \u2014 I'll be at Hampstead Green by 5:45 and will run the checklist beforehand.",
+        "timestamp": "2087-02-13T10:30:50Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Events Office",
+        "receiver": "+12918009249",
+        "content": "You're confirmed for June 12, 2087, 6\u20139pm. If anything changes, reply here or visit https://hampstead.gov.uk/contact. Thanks for helping out!",
+        "timestamp": "2087-02-13T10:29:36Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "Hampstead Events Office",
+        "content": "Thanks \u2014 see you then. I'll bring a reflective vest and an extra jumper in case it's chilly.",
+        "timestamp": "2087-02-13T10:26:51Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, roadworks on Hampstead High St causing delays 8\u201310 AM tomorrow. Please allow an extra 15 mins for rides. Info & map: https://bit.ly/hmpstd2087",
+        "timestamp": "2087-05-01T11:18:07Z",
+        "suspect": true
+    },
+    {
+        "sender": "CityRide Dispatch",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 CityRide Dispatch here. Surge predicted in Hampstead this evening from 6\u20139pm. Reply YES to opt in for priority matching, or NO to skip.",
+        "timestamp": "2087-04-26T07:15:00Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "CityRide Dispatch",
+        "content": "YES \u2014 opt me in. I'll be online in about 30 mins near Hampstead High St.",
+        "timestamp": "2087-04-26T07:16:06Z",
+        "suspect": false
+    },
+    {
+        "sender": "CityRide Dispatch",
+        "receiver": "+12918009249",
+        "content": "Thanks \u2014 you're opted in. We'll prioritize rides toward your area. For quick payout options, check https://dashboard.cityride.com/payout/2087-TRACY",
+        "timestamp": "2087-04-26T07:17:22Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "CityRide Dispatch",
+        "content": "Quick Q \u2014 any updated pickup etiquette for evening fares I should note?",
+        "timestamp": "2087-04-26T07:21:06Z",
+        "suspect": false
+    },
+    {
+        "sender": "CityRide Dispatch",
+        "receiver": "+12918009249",
+        "content": "Nothing major \u2014 confirm rider name, use lit pickup points, report lost items in-app. If anything feels unsafe, pause accepting rides and contact support via the driver app.",
+        "timestamp": "2087-04-26T07:27:04Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "CityRide Dispatch",
+        "content": "Got it. I'll go online at 5:30pm to get ahead. Any hotspots besides Hampstead Station?",
+        "timestamp": "2087-04-26T07:33:00Z",
+        "suspect": false
+    },
+    {
+        "sender": "CityRide Dispatch",
+        "receiver": "+12918009249",
+        "content": "Flask Walk is busy this evening. Also note a community event on 12/07/2087 near Hampstead Heath \u2014 expect extra demand then.",
+        "timestamp": "2087-04-26T07:42:42Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "CityRide Dispatch",
+        "content": "Perfect \u2014 I'll head to Flask Walk first and keep an eye on the app for that event.",
+        "timestamp": "2087-04-26T07:44:52Z",
+        "suspect": false
+    },
+    {
+        "sender": "CityRide Dispatch",
+        "receiver": "+12918009249",
+        "content": "Great plan. If your ETA shifts, update it in the driver app so we can match you efficiently. Drive safe, Tracy.",
+        "timestamp": "2087-04-26T07:25:24Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "CityRide Dispatch",
+        "content": "Thanks \u2014 will do. See you tonight!",
+        "timestamp": "2087-04-26T07:41:24Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Ops",
+        "receiver": "+12918009249",
+        "content": "RideShare Ops: Hi Tracy, inspection booked 2087-07-12 at 09:00, Hampstead Service Hub (51.5541,-0.1744). Reply CONFIRM or RESCHEDULE. Details: https://rideshare.co.uk/inspect/HTD2087",
+        "timestamp": "2087-08-01T22:55:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Ops",
+        "content": "CONFIRM. I'll arrive by 08:50 and bring the logbook.",
+        "timestamp": "2087-08-01T22:57:33Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Ops",
+        "receiver": "+12918009249",
+        "content": "Thanks Tracy \u2014 please clear in-car camera footage and have your fuel card ready. Free shuttle from Hampstead Station leaves 08:30. Map: https://maps.google.com/?q=51.5541,-0.1744",
+        "timestamp": "2087-08-01T23:03:50Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Ops",
+        "content": "Got it. Camera cleared now. If traffic holds me up I'll send a quick text.",
+        "timestamp": "2087-08-01T23:07:38Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Ops",
+        "receiver": "+12918009249",
+        "content": "Noted. If you need to reschedule visit https://rideshare.co.uk/reschedule/HTD2087 or reply RESCHEDULE. See you 2087-07-12.",
+        "timestamp": "2087-08-01T23:06:16Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Ops",
+        "content": "Will do. I'll take the shuttle and see you then.",
+        "timestamp": "2087-08-01T23:11:14Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, roadworks on Hampstead High St may affect pickups today 09:00-15:00. Please check detours and alternate routes: https://bit.ly/hampstead2087 - Hampstead Council",
+        "timestamp": "2087-07-24T08:52:59Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, temporary roadworks on Hampstead High St may affect pickups today. Expect delays until 15 Apr 2087. Details & alternate routes: https://bit.ly/Hampstead2087",
+        "timestamp": "2087-03-17T23:53:10Z",
+        "suspect": true
+    },
+    {
+        "sender": "Camden Council",
+        "receiver": "+12918009249",
+        "content": "Tracy: Roadworks on Heath St, Hampstead tonight 20:00\u201323:00 may delay pickups. Consider alternate route. Info: https://bit.ly/hamp-alert87",
+        "timestamp": "2087-12-19T00:12:06Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, temporary closure on High St, Hampstead may affect pickups 7am\u20133pm. Expect delays; use alternate routes. Live map: https://bit.ly/hamp-hwy-2087",
+        "timestamp": "2087-02-24T15:28:44Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Tracy, new fare & safety updates for Hampstead drivers. Please review changes in the Driver Hub: https://bit.ly/rs-hamp87 Reply YES to confirm you've read it.",
+        "timestamp": "2087-04-23T06:24:13Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "Tracy\u2014Unusual login to your Uber driver account from Hampstead. Verify now to avoid suspension: https://ub3r-secure-login.net/verify",
+        "timestamp": "2087-12-23T18:51:29Z",
+        "suspect": true
+    },
+    {
+        "sender": "Camden Council",
+        "receiver": "+12918009249",
+        "content": "Tracy: Roadworks on Heath St, Hampstead tomorrow 07:00-16:00. Expect delays on pickup routes. Details & detours: https://camden.gov.uk/roadworks-2087 - Camden Council",
+        "timestamp": "2087-08-26T01:49:42Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 Hampstead bonus available 18/09/2087. Earn an extra \u00a37/trip in NW3. Tap to opt in: https://support.rideshare.com/hampstead-2087 Reply YES to enroll.",
+        "timestamp": "2087-10-13T09:04:22Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Thanks \u2014 what's the time window for the bonus?",
+        "timestamp": "2087-10-13T09:08:59Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "The bonus runs 06:00\u201322:00 on 18/09/2087. After you enroll, 'Hampstead Bonus' will appear in your driver app.",
+        "timestamp": "2087-10-13T09:07:24Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Please enroll me. Also, are shared rides eligible?",
+        "timestamp": "2087-10-13T09:13:10Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "You're enrolled, Tracy. Shared rides receive 50% of the bonus. Full terms: https://support.rideshare.com/hampstead-2087/faq",
+        "timestamp": "2087-10-13T09:10:38Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Great \u2014 I'll start early. Can you send a reminder 1 hour before my first shift?",
+        "timestamp": "2087-10-13T09:26:27Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Will do. We'll send a reminder 1 hour before your first active trip in Hampstead on 18/09/2087. Drive safe!",
+        "timestamp": "2087-10-13T09:22:10Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Thanks \u2014 appreciate it. See you on the road.",
+        "timestamp": "2087-10-13T09:31:12Z",
+        "suspect": false
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "URGENT: Tracy, your RideShare account locked after suspicious sign-in in Hampstead. Verify to restore access now: https://ub3r-verify2087.net/verify/Tracy",
+        "timestamp": "2087-09-29T20:20:59Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber Security",
+        "receiver": "+12918009249",
+        "content": "Tracy, urgent: Unusual activity detected on your driver account in Hampstead. Verify now to avoid suspension: https://uber-secure-verify.net/verify",
+        "timestamp": "2087-11-01T11:33:08Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy \u2014 RideShare Support here. A new Hampstead driver parking permit is available for your zone. Apply to access priority spots. Details: https://ridersupport.com/permits/2087?driver=Tracy Reply APPLY to get the form.",
+        "timestamp": "2087-08-15T22:18:21Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Thanks \u2014 what's the cost and how long until it's active?",
+        "timestamp": "2087-08-15T22:22:25Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "It's \u00a318/month. Permit is active as soon as approved (usually within 48 hours). We can auto-fill with your driver ID on file. Reply CONFIRM to apply now.",
+        "timestamp": "2087-08-15T22:27:57Z",
+        "suspect": false
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "CONFIRM \u2014 please use my driver ID on file. Thanks.",
+        "timestamp": "2087-08-15T22:27:48Z",
+        "suspect": false
+    },
+    {
+        "sender": "RideShare Support",
+        "receiver": "+12918009249",
+        "content": "Application submitted, Tracy. You'll get a confirmation text when approved (expected within 48 hrs). View terms: https://ridersupport.com/permits/2087/terms",
+        "timestamp": "2087-08-15T22:29:37Z",
+        "suspect": true
+    },
+    {
+        "sender": "+12918009249",
+        "receiver": "RideShare Support",
+        "content": "Perfect, thanks \u2014 I'll watch for the confirmation.",
+        "timestamp": "2087-08-15T22:41:01Z",
+        "suspect": false
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, roadworks on High St, Hampstead will affect pickups Sat 12/09/2087 7am\u20133pm. Expect delays; consider alternate routes. More info: https://bit.ly/hampsh87",
+        "timestamp": "2087-10-08T16:14:06Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, new driver parking rules in Hampstead begin 01/06/2087. Check permit details & exemptions: https://bit.ly/hamp-driver2087",
+        "timestamp": "2087-03-23T17:16:56Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Council",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, roadworks on Heath St (Hampstead) may delay pickups this morning 7\u20139am. Expect minor detours. Please allow extra time. Details: https://bit.ly/hampstead-traffic",
+        "timestamp": "2087-08-19T09:26:12Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber",
+        "receiver": "+12918009249",
+        "content": "Tracy, your Uber driver weekly summary for week ending 2087-04-12 is ready. View trips & earnings: https://uber.com/driver/summary Reply HELP for support.",
+        "timestamp": "2087-05-07T23:12:59Z",
+        "suspect": true
+    },
+    {
+        "sender": "Hampstead Alerts",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, Hampstead roadworks on High St may affect rides today. Expect delays near NW3; please allow extra time. Info & map: https://bit.ly/hampstead-alert",
+        "timestamp": "2087-05-22T18:58:47Z",
+        "suspect": true
+    },
+    {
+        "sender": "Uber",
+        "receiver": "+12918009249",
+        "content": "Hi Tracy, new ride nearby in Hampstead. 10-min pickup, est. fare \u00a38. Tap to accept in your driver app: https://bit.ly/ubdrvHamp",
+        "timestamp": "2087-09-06T22:49:09Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideShare Security",
+        "receiver": "+12918009249",
+        "content": "Tracy: Suspicious login to your RideShare driver account from Hampstead. Verify now to avoid suspension: https://r1d3share-verify.com/confirm/Tracy",
+        "timestamp": "2087-05-03T09:59:52Z",
+        "suspect": true
+    },
+    {
+        "sender": "RideNow",
+        "receiver": "+12918009249",
+        "content": "Tracy, demand in Hampstead is high tonight. Consider logging on 6\u20139 PM for extra fares. Check heatmap & earnings: https://bit.ly/ridenow-hamp",
+        "timestamp": "2087-08-14T02:49:15Z",
+        "suspect": true
     }
 ]

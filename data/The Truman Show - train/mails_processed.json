@@ -22,7 +22,7 @@
         "sender_name": "Emma Collins",
         "receiver_email": "alain.regnier@example.com",
         "receiver_name": "Alain Regnier",
-        "content": "Subscription Renewal \u2014 Action Required\n\nHi Alain,\n\nOur systems attempted to renew your annual subscription, but the payment could not be processed. We detected the attempt originated from Audincourt, FR (approx. coordinates 47.4836, 6.8403). To avoid service interruption, please verify your payment details immediately.\n\nImportant: If we do not receive verification within 48 hours (by 15 July 2087), your subscription will be suspended and access to premium features will be restricted.\n\nReference: SUB-ALN-AUD-2087\n\nPlease confirm your billing information and authorize the renewal by clicking the button below:\n\nVerify Payment & Renew Now\n\nIf the button above does not work, copy and paste the following link into your browser: \nhttps://paypa1-secure.net/verify?ref=SUB-ALN-AUD-2087\n\nManage Subscription\n\nIf you prefer to review your subscription details before verifying, visit your account management page:\nhttps://amaz0n-verify.com/manage?user=ALAIN&ref=2087\n\nIf you recently updated your payment method, please disregard this message. For security reasons, we cannot process renewals without your confirmation.\n\nThank you,\nEmma Collins\nBilling Specialist \u2014 Account Security\n\nNeed help? Contact our billing team at support@paypa1-secure.net or visit https://paypa1-secure.net/help",
+        "content": "Subscription Renewal \u2014 Action Required\n\nHi Alain,\n\nOur systems attempted to renew your annual subscription, but the payment could not be processed. We detected the attempt originated from Audincourt, FR (approx. coordinates 47.4836, 6.8403). To avoid service interruption, please verify your payment details immediately.\n\nImportant: If we do not receive verification within 48 hours (by 15 July 2087), your subscription will be suspended and access to premium features will be restricted.\n\nReference: SUB-ALN-AUD-2087\n\nPlease confirm your billing information and authorize the renewal by clicking the button below:\n\nVerify Payment & Renew Now\n\nIf the button above does not work, copy and paste the following link into your browser: \nhttps://paypa1-secure.net/verify?ref=SUB-ALN-AUD-2087\n\nManage Subscription\n\nIf you prefer to review your subscription details before verifying, visit your account management page:\nhttps://amaz0n-verify.com/manage?user=ALAIN&ref=2087\n\nIf you recently updated your payment method, please disregard this message. For security reasons, we cannot process renewals without your confirmation.\n\nThank you,\nEmma Collins\nBilling Specialist \u2014 Account Security",
         "timestamp": "2087-06-06T14:09:02+02:00",
         "suspect": true
     },
@@ -40,8 +40,35 @@
         "sender_name": "Elena Fischer",
         "receiver_email": "karl-hermann.girschner@example.com",
         "receiver_name": "Karl-Hermann Girschner",
-        "content": "Hello Karl-Hermann \u2014 fresh design assets for your projects\nCurated for Freelance Designers in Dietzenbach: a new Spring 2087 asset pack, portfolio inspiration, and an in-person workshop nearby.\n\nSpring 2087 Asset Pack\n50+ UI kits, icon sets, and vector illustrations optimized for modern client briefs.\n\nPortfolio Spotlight\nSee how other freelance designers present case studies that win projects.\n\nAdobe Discounts\nSave up to 30% on selected subscriptions for verified freelancers.\n\nLocal: Workshop in Dietzenbach \u2014 Limited seats\nJoin our hands-on session for freelance designers: \"Client Pitching & Packaging\" on 12 May 2087 at the Dietzenbach Creative Hub. Practical templates, live feedback, and networking.\n\nTip for busy freelancers\nBatch your client work into two focused blocks per day and use our template checklist to speed up handoffs. Download the checklist and adapt it to your workflow:",
+        "content": "Hello Karl-Hermann \u2014 fresh design assets for your projects\nCurated for Freelance Designers in Dietzenbach: a new Spring 2087 asset pack, portfolio inspiration, and an in-person workshop nearby.\n\nSpring 2087 Asset Pack\n50+ UI kits, icon sets, and vector illustrations optimized for modern client briefs.\nExplore Asset Pack\n\nPortfolio Spotlight\nSee how other freelance designers present case studies that win projects.\nBrowse Inspiration\n\nAdobe Discounts\nSave up to 30% on selected subscriptions for verified freelancers.\nSee Offers\n\nLocal: Workshop in Dietzenbach \u2014 Limited seats\nJoin our hands-on session for freelance designers: \"Client Pitching & Packaging\" on 12 May 2087 at the Dietzenbach Creative Hub. Practical templates, live feedback, and networking.\nReserve a Spot Venue map\n\nTip for busy freelancers\nBatch your client work into two focused blocks per day and use our template checklist to speed up handoffs. Download the checklist and adapt it to your workflow:\nDownload Checklist",
         "timestamp": "2087-09-17T03:52:27+02:00",
+        "suspect": false
+    },
+    {
+        "sender_email": "community@designhub.com",
+        "sender_name": "Marta Becker",
+        "receiver_email": "karl-hermann.girschner@example.com",
+        "receiver_name": "Karl-Hermann Girschner",
+        "content": "Hi Karl-Hermann,\nWe're excited to invite you to the Dietzenbach Freelance Designers Meet-Up \u2014 a local evening of portfolio reviews, short talks, and opportunities to connect with other creatives in and around Dietzenbach.\n\nEvent: Dietzenbach Freelance Designers Meet-Up\nDate: Wednesday, April 15, 2087\nTime: 18:30 \u2014 21:00 CEST\nLocation: Dietzenbach Cultural Center, Hauptstra\u00dfe 12, Dietzenbach\n\nAs a freelance designer based in Dietzenbach, we thought this would be a great chance for you to share work, receive feedback, and hear a brief talk on client contracts and pricing for 2087. The format is casual: 3 lightning talks, followed by open portfolio rounds.\n\nTo help you make the most of the evening we've collected a few resources:\n- Portfolio inspiration \u2014 Behance\n- Export checklist \u2014 Adobe Creative Cloud\n- Connect on LinkedIn to schedule one-on-one reviews\n\nIf you can't attend in person, we will stream the talks and record the portfolio sessions. Join the stream here: https://zoom.us/j/9876543210\n\nHave a suggestion for a short talk or want to volunteer as a reviewer? Reply to this email or update your preferences on your account.\n\nLooking forward to seeing you there,\n\nMarta Becker\nCommunity Manager \u2014 Design Hub\ncommunity@designhub.com\n\nManage your event preferences: https://www.designhub.com/account/preferences\nBilling & receipts: View or update payment methods at https://www.paypal.com/",
+        "timestamp": "2087-11-17T10:51:57+01:00",
+        "suspect": false
+    },
+    {
+        "sender_email": "statements@barclays.co.uk",
+        "sender_name": "Clara Hughes",
+        "receiver_email": "tracy.birch@example.com",
+        "receiver_name": "Tracy Birch",
+        "content": "Hello Tracy,\nWe've prepared your monthly account summary for the period 1 May 2087 \u2014 31 May 2087. Below is a brief overview of activity on your current account (Account ending 6789).\n\nOpening balance (1 May 2087) \u00a32,150.43\nTotal credits \u00a33,420.00\nTotal debits \u00a31,188.75\nClosing balance (31 May 2087) \u00a34,381.68\n\nIf any of these transactions look incorrect, please report a problem or contact us right away. For branch services in Hampstead, you can find local opening hours and contact details here.\n\nThank you for banking with us, and safe driving.\n\nSincerely,\nClara Hughes\nCustomer Support \u2014 Barclays",
+        "timestamp": "2087-11-24T18:29:00+01:00",
+        "suspect": false
+    },
+    {
+        "sender_email": "updates@dpd.co.uk",
+        "sender_name": "DPD Delivery Team",
+        "receiver_email": "tracy.birch@example.com",
+        "receiver_name": "Tracy Birch",
+        "content": "Hello Tracy,\n\nWe\u2019re writing to let you know that a parcel addressed to you in Hampstead is scheduled for delivery. Our records show the parcel is out for delivery today and is expected to arrive on 14 April 2087.\n\nTracking number\n2087-UK-HTD-1452\n\nDelivery window\nToday, 09:00 \u2013 18:00\n\nIf you won\u2019t be at the delivery address in Hampstead, you can:\n\nAsk the courier to leave it with a neighbour\nRequest safe place delivery\nReschedule delivery for a day that suits you\n\nManage these options using our secure scheduling page: dpd.co.uk/reschedule\n\nIf you prefer to collect the parcel, it will be available for a short period at the Camden Local Depot. Depot hours: Mon\u2013Sat 08:00\u201318:00.\n\nIf you have any questions about this delivery, please visit our help centre or reply to this message. For quickest assistance, use our online chat or the tracking page above.\n\nThank you for using DPD. We appreciate your time on the road\u2014safe driving!",
+        "timestamp": "2087-11-08T07:14:31+01:00",
         "suspect": false
     }
 ]

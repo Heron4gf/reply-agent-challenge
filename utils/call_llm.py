@@ -26,7 +26,7 @@ def call_llm(
     prompt_id: str,
     input: str,
     output_format: type[BaseModel],
-    model: str = "openai/gpt-4o-mini",
+    model: str,
     session_id: str | None = None
 ) -> BaseModel:
     prompt_text = get_prompt(prompt_id)

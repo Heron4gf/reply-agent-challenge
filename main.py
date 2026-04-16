@@ -1,4 +1,5 @@
 import os
+import asyncio
 from dotenv import load_dotenv
 from utils.call_llm import call_llm
 from models.response_id import FraudUserTransactions
@@ -15,20 +16,49 @@ def getUsers(path: str = "output/enriched_users") -> List[str]:
 def getUser(path: str) -> str:
     return read_file(path)
 
-def process_solution(solution_path: str = "result.txt"):
+async def process_user(user_path: str, sem: asyncio.Semaphore, index: int, total: int) -> List[str]:
+    async with sem:
+        print(f"[{index}/{total}] Started processing: {os.path.basename(user_path)}")
+        user_data = await asyncio.to_thread(getUser, user_path)
+        
+        suspect_transactions = await asyncio.to_thread(
+            call_llm,
+            prompt_id="fraud_detection",
+            input=user_data,
+            output_format=FraudUserTransactions,
+            model=os.getenv("JUDGE_MODEL")
+        )
+        
+        print(f"[{index}/{total}] Completed: {os.path.basename(user_path)}")
+        
+        if suspect_transactions and suspect_transactions.fraudolent_transactions:
+            return [fraud.transaction_id for fraud in suspect_transactions.fraudolent_transactions]
+        return []
+
+async def process_solution(solution_path: str = "result.txt", max_concurrent: int = 5):
+    users = getUsers()
+    total_users = len(users)
+    
+    if total_users == 0:
+        print("No user profiles found.")
+        return
+
+    print(f"Initiating fraud detection for {total_users} users (concurrency: {max_concurrent})...")
+    sem = asyncio.Semaphore(max_concurrent)
+    
+    tasks = [
+        process_user(user_path, sem, i + 1, total_users)
+        for i, user_path in enumerate(users)
+    ]
+    
+    nested_results = await asyncio.gather(*tasks)
+    flat_results = [tx_id for sublist in nested_results for tx_id in sublist]
+    
     with open(solution_path, "w", encoding="utf-8") as file:
-        for user_path in getUsers():
-            user_data = getUser(user_path)
+        for tx_id in flat_results:
+            file.write(f"{tx_id}\n")
             
-            suspect_transactions = call_llm(
-                prompt_id="fraud_detection",
-                input=user_data,
-                output_format=FraudUserTransactions
-            )
-            
-            if suspect_transactions and suspect_transactions.fraudolent_transactions:
-                for fraud in suspect_transactions.fraudolent_transactions:
-                    file.write(f"{fraud.transaction_id}\n")
+    print(f"\nExecution finished. Exported {len(flat_results)} suspicious transaction IDs to {solution_path}.")
 
 if __name__ == "__main__":
-    process_solution()
+    asyncio.run(process_solution())
