@@ -1,0 +1,2514 @@
+{
+  "user": {
+    "first_name": "Tracy",
+    "last_name": "Birch",
+    "birth_year": 2050,
+    "salary": 12700.0,
+    "job": "Ride-share Driver",
+    "iban": "GB55A1899498623707047636913",
+    "residence": {
+      "city": "Hampstead",
+      "lat": 51.5541,
+      "lng": -0.1744
+    },
+    "description": "Tracy Birch, born in 2050, is a 37-year-old ride-share driver based in Hampstead who earns about £12,700 a year ferrying neighbours, tourists and late-shift workers through the leafy streets and into central London; most of her days are routine short hops, but she takes a single longer trip each year that can land her anywhere from a small town to a megacity, she trusts a few familiar apps to keep the work steady and sensible yet is pragmatically susceptible to the odd online lure—about as likely to click a suspicious link as to ignore it—so she navigates her life with the quiet caution of someone making every fare and every pound count.",
+    "biotag": "BRCH-TRCY-802-HAM-1"
+  },
+  "linked_data": {
+    "locations": [
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-01T08:25:39",
+        "lat": 51.59,
+        "lng": -0.2206,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-03T08:40:54",
+        "lat": 51.5496,
+        "lng": -0.1527,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-05T07:02:55",
+        "lat": 51.5101,
+        "lng": -0.2365,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-06T08:48:25",
+        "lat": 51.5963,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-07T09:44:18",
+        "lat": 51.5927,
+        "lng": -0.1715,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-08T16:25:26",
+        "lat": 51.5828,
+        "lng": -0.199,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-09T11:55:59",
+        "lat": 51.5469,
+        "lng": -0.1065,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-11T07:09:29",
+        "lat": 51.5793,
+        "lng": -0.2336,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-12T14:59:40",
+        "lat": 51.5721,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-13T03:39:10",
+        "lat": 51.5595,
+        "lng": -0.1339,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-14T00:23:33",
+        "lat": 51.5775,
+        "lng": -0.2293,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-15T17:48:07",
+        "lat": 51.5496,
+        "lng": -0.1556,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-19T18:26:06",
+        "lat": 51.5209,
+        "lng": -0.1065,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-20T14:31:51",
+        "lat": 51.5325,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-22T13:43:24",
+        "lat": 51.5433,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-23T15:50:09",
+        "lat": 51.5837,
+        "lng": -0.1657,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-24T22:26:11",
+        "lat": 51.511,
+        "lng": -0.2019,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-26T09:30:58",
+        "lat": 51.5137,
+        "lng": -0.1065,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-27T17:57:20",
+        "lat": 51.5622,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-28T15:19:42",
+        "lat": 51.5155,
+        "lng": -0.1209,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-29T16:55:05",
+        "lat": 51.5712,
+        "lng": -0.2423,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-01-31T07:58:18",
+        "lat": 51.5263,
+        "lng": -0.186,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-01T14:26:14",
+        "lat": 51.5469,
+        "lng": -0.1051,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-02T11:44:15",
+        "lat": 51.537,
+        "lng": -0.2177,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-03T20:11:39",
+        "lat": 51.5173,
+        "lng": -0.1787,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-04T08:58:51",
+        "lat": 51.5263,
+        "lng": -0.2134,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-05T11:40:06",
+        "lat": 51.5568,
+        "lng": -0.1585,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-06T19:15:18",
+        "lat": 51.5577,
+        "lng": -0.2322,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-07T04:56:09",
+        "lat": 51.5487,
+        "lng": -0.2307,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-08T23:32:19",
+        "lat": 51.5703,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-09T15:45:13",
+        "lat": 51.5137,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-10T22:02:48",
+        "lat": 51.5424,
+        "lng": -0.1282,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-11T21:35:45",
+        "lat": 51.5819,
+        "lng": -0.1441,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-12T06:44:55",
+        "lat": 51.5209,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-13T05:53:55",
+        "lat": 51.5406,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-14T12:10:38",
+        "lat": 51.5164,
+        "lng": -0.1961,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-15T05:01:57",
+        "lat": 51.5361,
+        "lng": -0.1686,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-16T07:32:33",
+        "lat": 51.5541,
+        "lng": -0.1051,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-17T11:01:06",
+        "lat": 51.537,
+        "lng": -0.2409,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-18T13:48:51",
+        "lat": 51.5442,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-19T04:20:58",
+        "lat": 51.5775,
+        "lng": -0.1108,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-21T08:02:18",
+        "lat": 51.5541,
+        "lng": -0.225,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-22T14:46:43",
+        "lat": 51.5676,
+        "lng": -0.1484,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-23T23:57:06",
+        "lat": 51.5352,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-24T15:16:51",
+        "lat": 51.5954,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-26T12:40:33",
+        "lat": 51.5828,
+        "lng": -0.1614,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-27T11:49:30",
+        "lat": 51.5748,
+        "lng": -0.1715,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-02-28T11:04:19",
+        "lat": 51.5182,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-02T09:06:09",
+        "lat": 51.5307,
+        "lng": -0.1975,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-03T10:31:54",
+        "lat": 51.5882,
+        "lng": -0.2466,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-04T21:59:01",
+        "lat": 51.5316,
+        "lng": -0.1643,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-05T04:53:35",
+        "lat": 51.5289,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-06T18:50:11",
+        "lat": 51.5406,
+        "lng": -0.1094,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-07T04:08:14",
+        "lat": 51.5101,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-08T20:34:21",
+        "lat": 51.528,
+        "lng": -0.1932,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-10T08:49:17",
+        "lat": 51.5873,
+        "lng": -0.173,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-11T05:28:05",
+        "lat": 51.5146,
+        "lng": -0.2394,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-14T14:27:31",
+        "lat": 51.5927,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-15T05:17:18",
+        "lat": 51.5658,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-17T05:31:09",
+        "lat": 51.52,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-18T10:02:28",
+        "lat": 51.537,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-19T14:03:23",
+        "lat": 51.537,
+        "lng": -0.1484,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-20T12:33:54",
+        "lat": 51.5739,
+        "lng": -0.2163,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-21T11:41:13",
+        "lat": 51.5846,
+        "lng": -0.1888,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-22T08:14:35",
+        "lat": 51.5649,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-23T22:09:50",
+        "lat": 51.5954,
+        "lng": -0.2062,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-24T20:17:11",
+        "lat": 51.5236,
+        "lng": -0.1036,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-25T09:53:21",
+        "lat": 51.528,
+        "lng": -0.1108,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-27T10:37:57",
+        "lat": 51.5891,
+        "lng": -0.212,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-28T18:58:36",
+        "lat": 51.5119,
+        "lng": -0.1513,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-30T14:32:16",
+        "lat": 51.5415,
+        "lng": -0.1845,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-03-31T11:57:21",
+        "lat": 51.5289,
+        "lng": -0.1441,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-01T12:13:23",
+        "lat": 51.5658,
+        "lng": -0.2033,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-03T01:04:35",
+        "lat": 51.581,
+        "lng": -0.1253,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-04T06:24:23",
+        "lat": 51.5514,
+        "lng": -0.2163,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-08T02:31:32",
+        "lat": 51.5209,
+        "lng": -0.1484,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-09T17:18:53",
+        "lat": 51.5182,
+        "lng": -0.1874,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-10T00:34:01",
+        "lat": 51.537,
+        "lng": -0.1527,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-11T19:52:50",
+        "lat": 51.5595,
+        "lng": -0.2336,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-12T21:33:33",
+        "lat": 51.5379,
+        "lng": -0.2394,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-14T13:19:13",
+        "lat": 51.5263,
+        "lng": -0.2264,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-15T16:29:05",
+        "lat": 51.5649,
+        "lng": -0.1267,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-17T18:13:14",
+        "lat": 51.581,
+        "lng": -0.2177,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-18T02:46:12",
+        "lat": 51.5307,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-19T08:16:16",
+        "lat": 51.5478,
+        "lng": -0.1773,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-20T16:52:26",
+        "lat": 51.5496,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-22T06:00:30",
+        "lat": 51.5191,
+        "lng": -0.1036,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-23T20:54:13",
+        "lat": 51.555,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-24T17:29:09",
+        "lat": 51.5604,
+        "lng": -0.16,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-25T17:12:32",
+        "lat": 25.0119,
+        "lng": 88.1433,
+        "city": "Ingraj Bazar"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-26T16:47:29",
+        "lat": 24.9867,
+        "lng": 88.1036,
+        "city": "Ingraj Bazar"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-27T23:11:38",
+        "lat": 25.0128,
+        "lng": 88.181,
+        "city": "Ingraj Bazar"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-04-29T17:28:49",
+        "lat": 25.0326,
+        "lng": 88.1532,
+        "city": "Ingraj Bazar"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-01T17:03:16",
+        "lat": 24.976,
+        "lng": 88.0937,
+        "city": "Ingraj Bazar"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-02T19:34:28",
+        "lat": 51.5298,
+        "lng": -0.1686,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-04T17:22:24",
+        "lat": 51.5298,
+        "lng": -0.16,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-07T22:37:53",
+        "lat": 51.5424,
+        "lng": -0.238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-08T23:02:38",
+        "lat": 51.5451,
+        "lng": -0.1773,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-10T22:43:31",
+        "lat": 51.5307,
+        "lng": -0.1715,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-11T07:15:08",
+        "lat": 51.5631,
+        "lng": -0.1339,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-13T09:45:36",
+        "lat": 51.5586,
+        "lng": -0.1224,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-14T11:45:13",
+        "lat": 51.5451,
+        "lng": -0.2149,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-15T21:04:11",
+        "lat": 51.5918,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-16T22:22:02",
+        "lat": 51.5442,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-17T14:25:59",
+        "lat": 51.581,
+        "lng": -0.2004,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-18T14:51:21",
+        "lat": 51.5559,
+        "lng": -0.1426,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-19T16:21:02",
+        "lat": 51.5451,
+        "lng": -0.1758,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-21T22:56:30",
+        "lat": 51.5855,
+        "lng": -0.225,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-22T04:23:59",
+        "lat": 51.5586,
+        "lng": -0.1946,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-24T20:02:26",
+        "lat": 51.5685,
+        "lng": -0.2409,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-25T12:01:44",
+        "lat": 51.5963,
+        "lng": -0.1339,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-26T05:40:55",
+        "lat": 51.5218,
+        "lng": -0.1123,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-27T00:29:22",
+        "lat": 51.5245,
+        "lng": -0.2409,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-28T09:23:07",
+        "lat": 51.5945,
+        "lng": -0.2091,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-29T07:34:04",
+        "lat": 51.5406,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-05-31T09:44:45",
+        "lat": 51.5631,
+        "lng": -0.1513,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-01T08:32:13",
+        "lat": 51.5793,
+        "lng": -0.1657,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-02T14:24:03",
+        "lat": 51.5298,
+        "lng": -0.212,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-03T22:50:47",
+        "lat": 51.5882,
+        "lng": -0.1484,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-04T21:26:12",
+        "lat": 51.5514,
+        "lng": -0.1383,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-06T13:32:55",
+        "lat": 51.5307,
+        "lng": -0.1296,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-07T13:04:24",
+        "lat": 51.5137,
+        "lng": -0.2351,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-08T20:12:16",
+        "lat": 51.5128,
+        "lng": -0.1701,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-12T18:03:49",
+        "lat": 51.5469,
+        "lng": -0.1585,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-14T06:38:19",
+        "lat": 51.5757,
+        "lng": -0.1513,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-16T08:27:31",
+        "lat": 51.5532,
+        "lng": -0.1903,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-17T22:47:40",
+        "lat": 51.5577,
+        "lng": -0.1715,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-18T20:25:26",
+        "lat": 51.5846,
+        "lng": -0.1542,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-19T14:45:20",
+        "lat": 51.5918,
+        "lng": -0.1065,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-21T15:02:23",
+        "lat": 51.581,
+        "lng": -0.2192,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-22T01:23:59",
+        "lat": 51.5622,
+        "lng": -0.1961,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-24T00:01:42",
+        "lat": 51.5227,
+        "lng": -0.1108,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-25T23:21:58",
+        "lat": 51.5397,
+        "lng": -0.2091,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-26T12:55:25",
+        "lat": 51.5927,
+        "lng": -0.1426,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-27T15:20:45",
+        "lat": 51.5936,
+        "lng": -0.1513,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-29T00:51:50",
+        "lat": 51.5289,
+        "lng": -0.2047,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-06-30T16:08:39",
+        "lat": 51.5334,
+        "lng": -0.1542,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-02T09:30:07",
+        "lat": 51.5676,
+        "lng": -0.1296,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-05T09:19:40",
+        "lat": 51.5819,
+        "lng": -0.2409,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-06T22:32:19",
+        "lat": 51.5361,
+        "lng": -0.1181,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-07T16:50:35",
+        "lat": 51.5137,
+        "lng": -0.1238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-08T18:32:53",
+        "lat": 51.5514,
+        "lng": -0.2394,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-09T20:35:28",
+        "lat": 51.5963,
+        "lng": -0.2452,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-10T09:30:41",
+        "lat": 51.5837,
+        "lng": -0.2437,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-11T12:42:40",
+        "lat": 51.5766,
+        "lng": -0.2336,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-12T11:39:57",
+        "lat": 51.5263,
+        "lng": -0.2466,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-13T17:14:53",
+        "lat": 51.5802,
+        "lng": -0.1166,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-14T05:37:33",
+        "lat": 51.5828,
+        "lng": -0.1903,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-15T05:46:58",
+        "lat": 51.5487,
+        "lng": -0.1354,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-16T19:47:33",
+        "lat": 51.52,
+        "lng": -0.2437,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-18T12:02:02",
+        "lat": 51.5487,
+        "lng": -0.1758,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-19T03:01:10",
+        "lat": 51.5361,
+        "lng": -0.1079,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-20T12:21:11",
+        "lat": 51.5703,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-21T10:51:18",
+        "lat": 51.5155,
+        "lng": -0.2221,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-22T16:16:36",
+        "lat": 51.5604,
+        "lng": -0.2076,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-23T07:54:26",
+        "lat": 51.5272,
+        "lng": -0.1816,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-24T12:14:20",
+        "lat": 51.5532,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-25T02:15:03",
+        "lat": 51.5218,
+        "lng": -0.1787,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-26T14:16:34",
+        "lat": 51.59,
+        "lng": -0.1166,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-27T12:32:01",
+        "lat": 51.5972,
+        "lng": -0.238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-07-28T23:14:24",
+        "lat": 51.59,
+        "lng": -0.2192,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-01T04:53:39",
+        "lat": 51.546,
+        "lng": -0.1657,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-02T10:37:06",
+        "lat": 51.5289,
+        "lng": -0.1296,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-03T02:19:40",
+        "lat": 51.5155,
+        "lng": -0.1354,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-06T23:59:04",
+        "lat": 51.5658,
+        "lng": -0.1787,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-11T12:46:01",
+        "lat": 51.5604,
+        "lng": -0.2192,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-12T13:58:52",
+        "lat": 51.546,
+        "lng": -0.2322,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-13T01:10:00",
+        "lat": 51.5146,
+        "lng": -0.1701,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-14T07:22:41",
+        "lat": 51.5846,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-15T14:50:57",
+        "lat": 51.5101,
+        "lng": -0.1888,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-16T11:52:24",
+        "lat": 51.5343,
+        "lng": -0.1051,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-18T08:34:53",
+        "lat": 51.5694,
+        "lng": -0.2004,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-21T00:11:49",
+        "lat": 51.5972,
+        "lng": -0.2264,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-22T19:40:06",
+        "lat": 51.5748,
+        "lng": -0.1152,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-23T05:29:14",
+        "lat": 51.5936,
+        "lng": -0.2192,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-24T15:36:52",
+        "lat": 51.5119,
+        "lng": -0.1946,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-25T16:15:22",
+        "lat": 51.5613,
+        "lng": -0.1643,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-26T07:14:52",
+        "lat": 51.5505,
+        "lng": -0.1108,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-27T17:15:40",
+        "lat": 51.5218,
+        "lng": -0.1079,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-28T04:56:23",
+        "lat": 51.5514,
+        "lng": -0.1845,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-30T11:21:43",
+        "lat": 51.5864,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-08-31T11:36:11",
+        "lat": 51.5442,
+        "lng": -0.2134,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-01T09:20:17",
+        "lat": 51.5361,
+        "lng": -0.1079,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-02T03:26:09",
+        "lat": 51.5703,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-04T01:12:58",
+        "lat": 51.5694,
+        "lng": -0.1903,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-05T17:23:41",
+        "lat": 51.5577,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-06T06:34:08",
+        "lat": 51.5586,
+        "lng": -0.1643,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-07T12:52:56",
+        "lat": 51.5667,
+        "lng": -0.1108,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-08T22:13:35",
+        "lat": 51.5855,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-10T13:34:58",
+        "lat": 51.5748,
+        "lng": -0.1932,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-11T04:43:38",
+        "lat": 51.5263,
+        "lng": -0.2336,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-12T16:05:41",
+        "lat": 51.5272,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-13T14:54:05",
+        "lat": 51.555,
+        "lng": -0.1455,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-15T12:07:47",
+        "lat": 51.5101,
+        "lng": -0.2423,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-16T18:41:36",
+        "lat": 51.5595,
+        "lng": -0.2091,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-17T21:43:46",
+        "lat": 51.5936,
+        "lng": -0.2163,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-19T06:13:32",
+        "lat": 51.5209,
+        "lng": -0.173,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-20T05:06:39",
+        "lat": 51.5703,
+        "lng": -0.1426,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-21T09:56:53",
+        "lat": 51.5101,
+        "lng": -0.1816,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-22T16:46:06",
+        "lat": 51.5667,
+        "lng": -0.2394,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-23T22:09:15",
+        "lat": 51.5245,
+        "lng": -0.1484,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-24T15:39:48",
+        "lat": 51.5164,
+        "lng": -0.1354,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-27T21:42:12",
+        "lat": 51.5289,
+        "lng": -0.2177,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-29T01:59:31",
+        "lat": 51.5334,
+        "lng": -0.2076,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-09-30T07:18:26",
+        "lat": 51.5191,
+        "lng": -0.16,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-01T00:27:24",
+        "lat": 51.5514,
+        "lng": -0.1816,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-02T23:13:05",
+        "lat": 51.5649,
+        "lng": -0.1383,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-03T19:09:23",
+        "lat": 51.5191,
+        "lng": -0.1253,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-04T10:43:55",
+        "lat": 51.5945,
+        "lng": -0.2293,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-05T15:39:50",
+        "lat": 51.537,
+        "lng": -0.1845,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-06T11:48:23",
+        "lat": 51.5676,
+        "lng": -0.1123,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-07T18:10:32",
+        "lat": 51.5658,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-08T13:10:21",
+        "lat": 51.5918,
+        "lng": -0.1932,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-09T01:34:42",
+        "lat": 51.5514,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-10T00:45:19",
+        "lat": 51.5289,
+        "lng": -0.1238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-12T12:58:33",
+        "lat": 51.511,
+        "lng": -0.2192,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-15T12:14:26",
+        "lat": 51.5559,
+        "lng": -0.1715,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-16T19:13:57",
+        "lat": 51.5649,
+        "lng": -0.1094,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-18T19:20:59",
+        "lat": 51.5963,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-20T02:43:33",
+        "lat": 51.5694,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-21T12:18:10",
+        "lat": 51.5909,
+        "lng": -0.1556,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-23T05:37:58",
+        "lat": 51.5595,
+        "lng": -0.1296,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-24T18:14:10",
+        "lat": 51.5766,
+        "lng": -0.1325,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-25T12:31:09",
+        "lat": 51.5155,
+        "lng": -0.1961,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-26T09:26:46",
+        "lat": 51.5676,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-27T20:58:34",
+        "lat": 51.5775,
+        "lng": -0.1368,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-28T20:31:10",
+        "lat": 51.5487,
+        "lng": -0.2322,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-29T19:38:06",
+        "lat": 51.5334,
+        "lng": -0.1975,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-30T22:44:45",
+        "lat": 51.5819,
+        "lng": -0.1744,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-10-31T17:52:27",
+        "lat": 51.5406,
+        "lng": -0.225,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-02T03:56:30",
+        "lat": 51.5263,
+        "lng": -0.1571,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-04T18:58:54",
+        "lat": 51.5128,
+        "lng": -0.1585,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-05T23:02:38",
+        "lat": 51.5748,
+        "lng": -0.2076,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-08T21:18:03",
+        "lat": 51.5909,
+        "lng": -0.2091,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-09T00:55:48",
+        "lat": 51.5748,
+        "lng": -0.1961,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-10T13:45:13",
+        "lat": 51.5658,
+        "lng": -0.2351,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-12T10:45:31",
+        "lat": 51.5209,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-14T01:50:24",
+        "lat": 51.5173,
+        "lng": -0.1744,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-17T16:47:34",
+        "lat": 51.5137,
+        "lng": -0.2062,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-18T19:36:12",
+        "lat": 51.5604,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-19T03:13:36",
+        "lat": 51.5514,
+        "lng": -0.225,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-20T01:29:50",
+        "lat": 51.5209,
+        "lng": -0.1932,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-21T05:05:45",
+        "lat": 51.5694,
+        "lng": -0.1571,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-22T14:22:19",
+        "lat": 51.5361,
+        "lng": -0.2452,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-23T14:12:27",
+        "lat": 51.5837,
+        "lng": -0.1932,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-24T11:14:29",
+        "lat": 51.5819,
+        "lng": -0.1701,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-25T05:28:21",
+        "lat": 51.5613,
+        "lng": -0.1036,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-26T14:29:07",
+        "lat": 51.5864,
+        "lng": -0.2466,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-27T07:38:21",
+        "lat": 51.564,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-28T03:02:11",
+        "lat": 51.5433,
+        "lng": -0.1845,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-29T23:22:01",
+        "lat": 51.5676,
+        "lng": -0.2221,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-11-30T05:26:33",
+        "lat": 51.5694,
+        "lng": -0.1498,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-01T12:05:54",
+        "lat": 51.5128,
+        "lng": -0.1253,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-02T01:35:39",
+        "lat": 51.5757,
+        "lng": -0.1831,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-03T11:33:42",
+        "lat": 51.5496,
+        "lng": -0.2279,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-04T20:08:41",
+        "lat": 51.5775,
+        "lng": -0.2466,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-05T21:25:08",
+        "lat": 51.5775,
+        "lng": -0.1209,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-06T13:24:41",
+        "lat": 51.5334,
+        "lng": -0.2076,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-07T17:41:07",
+        "lat": 51.5119,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-09T13:20:13",
+        "lat": 51.5541,
+        "lng": -0.1051,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-10T02:14:54",
+        "lat": 51.5595,
+        "lng": -0.1238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-11T12:10:13",
+        "lat": 51.5703,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-12T06:48:05",
+        "lat": 51.581,
+        "lng": -0.1701,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-13T22:17:17",
+        "lat": 51.5604,
+        "lng": -0.1556,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-14T04:21:38",
+        "lat": 51.5155,
+        "lng": -0.1672,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-17T02:12:10",
+        "lat": 51.5694,
+        "lng": -0.1657,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-18T09:48:20",
+        "lat": 51.5388,
+        "lng": -0.186,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-19T07:57:58",
+        "lat": 51.555,
+        "lng": -0.1441,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-21T21:06:34",
+        "lat": 51.5559,
+        "lng": -0.2177,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-22T04:53:05",
+        "lat": 51.5164,
+        "lng": -0.1152,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-23T05:16:39",
+        "lat": 51.5289,
+        "lng": -0.238,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-24T02:43:26",
+        "lat": 51.5936,
+        "lng": -0.1311,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-26T12:38:29",
+        "lat": 51.5837,
+        "lng": -0.1412,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-27T18:55:38",
+        "lat": 51.5289,
+        "lng": -0.1946,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-28T14:58:23",
+        "lat": 51.5182,
+        "lng": -0.1888,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-29T15:58:08",
+        "lat": 51.5909,
+        "lng": -0.1802,
+        "city": "Hampstead"
+      },
+      {
+        "biotag": "BRCH-TRCY-802-HAM-1",
+        "timestamp": "2087-12-30T01:28:09",
+        "lat": 51.5721,
+        "lng": -0.2105,
+        "city": "Hampstead"
+      }
+    ],
+    "transactions": [
+      {
+        "transaction_id": "c7491b59-9186-42c8-a930-1411b13dfe13",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 336.09,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9147.87,
+        "description": "Rent payment Jan - Rental Management",
+        "timestamp": "2087-01-06T16:30:16",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "32e73719-7b07-4c61-9fac-6c715c92ab1f",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "MKTSW90199",
+        "transaction_type": "e-commerce",
+        "amount": 99.8,
+        "location": "SwiftCart Online",
+        "payment_method": "debit card",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT74G5663459696944669320308106",
+        "balance_after": 9048.07,
+        "description": "",
+        "timestamp": "2087-01-22T16:22:55",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "95679cc6-814c-4fbe-86a3-b697b54f5d10",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 399.65,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9701.17,
+        "description": "Rent payment Feb - Rental Management",
+        "timestamp": "2087-02-05T14:47:28",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "a8df2827-5aa0-4831-8f92-b2093d62739d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 370.14,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9331.03,
+        "description": "Rent payment Mar - Rental Management",
+        "timestamp": "2087-03-04T14:21:11",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "e6e1cc47-780e-40cc-9f3e-01ac239e0a87",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 407.1,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 11062.8,
+        "description": "Rent payment Apr - Rental Management",
+        "timestamp": "2087-04-06T09:27:38",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "be65ac20-9102-4206-adba-b53380910ecf",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "MKTSW90199",
+        "transaction_type": "e-commerce",
+        "amount": 44.95,
+        "location": "SwiftCart Online",
+        "payment_method": "debit card",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT38Z6425332149647507994595213",
+        "balance_after": 11017.85,
+        "description": "",
+        "timestamp": "2087-05-04T09:28:11",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "1a02f1a5-2a7a-489f-8e43-cf6f4f8fe116",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 355.28,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 11713.33,
+        "description": "Rent payment May - Rental Management",
+        "timestamp": "2087-05-06T09:20:42",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "9d893a51-4843-47dc-b66e-1436341ff374",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 366.5,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 12402.04,
+        "description": "Rent payment Jun - Rental Management",
+        "timestamp": "2087-06-05T19:28:22",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "3ba7708b-367a-4637-9b52-d8fea85dc8e7",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ACCRN68493",
+        "transaction_type": "direct debit",
+        "amount": 22.21,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT24M4140981830157061401795306",
+        "balance_after": 12379.83,
+        "description": "Rideshare app subscription",
+        "timestamp": "2087-06-11T05:39:27",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "dc26681a-fbb6-49bc-9481-9ae2996c93fb",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 392.72,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 13052.69,
+        "description": "Rent payment Jul - Rental Management",
+        "timestamp": "2087-07-07T14:23:32",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "6669e8f8-212b-4e7a-9615-0e59f923a35c",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 365.84,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 13730.06,
+        "description": "Rent payment Aug - Rental Management",
+        "timestamp": "2087-08-07T17:43:50",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "6f3885cf-c26e-454d-aba8-f1be0222f75d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 403.71,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 14396.47,
+        "description": "Rent payment Sep - Rental Management",
+        "timestamp": "2087-09-05T13:23:24",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "8d9ec706-bd91-4458-af02-4bc1166c943d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 389.91,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 15072.47,
+        "description": "Rent payment Oct - Rental Management",
+        "timestamp": "2087-10-05T13:23:28",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "d8711093-2453-4a74-8779-756014cc234d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 360.56,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 14711.91,
+        "description": "Rent payment Nov - Rental Management",
+        "timestamp": "2087-11-04T17:08:33",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "0c9b840e-5cda-440a-8d08-5f8cb74fe41c",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 374.99,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 16429.69,
+        "description": "Rent payment Dec - Rental Management",
+        "timestamp": "2087-12-07T16:24:58",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      }
+    ],
+    "emails": [],
+    "sms": []
+  },
+  "banned_suspicious": {
+    "transactions": [
+      {
+        "transaction_id": "c7491b59-9186-42c8-a930-1411b13dfe13",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 336.09,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9147.87,
+        "description": "Rent payment Jan - Rental Management",
+        "timestamp": "2087-01-06T16:30:16",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "32e73719-7b07-4c61-9fac-6c715c92ab1f",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "MKTSW90199",
+        "transaction_type": "e-commerce",
+        "amount": 99.8,
+        "location": "SwiftCart Online",
+        "payment_method": "debit card",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT74G5663459696944669320308106",
+        "balance_after": 9048.07,
+        "description": "",
+        "timestamp": "2087-01-22T16:22:55",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "95679cc6-814c-4fbe-86a3-b697b54f5d10",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 399.65,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9701.17,
+        "description": "Rent payment Feb - Rental Management",
+        "timestamp": "2087-02-05T14:47:28",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "a8df2827-5aa0-4831-8f92-b2093d62739d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 370.14,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 9331.03,
+        "description": "Rent payment Mar - Rental Management",
+        "timestamp": "2087-03-04T14:21:11",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "e6e1cc47-780e-40cc-9f3e-01ac239e0a87",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 407.1,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 11062.8,
+        "description": "Rent payment Apr - Rental Management",
+        "timestamp": "2087-04-06T09:27:38",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "be65ac20-9102-4206-adba-b53380910ecf",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "MKTSW90199",
+        "transaction_type": "e-commerce",
+        "amount": 44.95,
+        "location": "SwiftCart Online",
+        "payment_method": "debit card",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT38Z6425332149647507994595213",
+        "balance_after": 11017.85,
+        "description": "",
+        "timestamp": "2087-05-04T09:28:11",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "1a02f1a5-2a7a-489f-8e43-cf6f4f8fe116",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 355.28,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 11713.33,
+        "description": "Rent payment May - Rental Management",
+        "timestamp": "2087-05-06T09:20:42",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "9d893a51-4843-47dc-b66e-1436341ff374",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 366.5,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 12402.04,
+        "description": "Rent payment Jun - Rental Management",
+        "timestamp": "2087-06-05T19:28:22",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "3ba7708b-367a-4637-9b52-d8fea85dc8e7",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ACCRN68493",
+        "transaction_type": "direct debit",
+        "amount": 22.21,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT24M4140981830157061401795306",
+        "balance_after": 12379.83,
+        "description": "Rideshare app subscription",
+        "timestamp": "2087-06-11T05:39:27",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "dc26681a-fbb6-49bc-9481-9ae2996c93fb",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 392.72,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 13052.69,
+        "description": "Rent payment Jul - Rental Management",
+        "timestamp": "2087-07-07T14:23:32",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "6669e8f8-212b-4e7a-9615-0e59f923a35c",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 365.84,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 13730.06,
+        "description": "Rent payment Aug - Rental Management",
+        "timestamp": "2087-08-07T17:43:50",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "6f3885cf-c26e-454d-aba8-f1be0222f75d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 403.71,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 14396.47,
+        "description": "Rent payment Sep - Rental Management",
+        "timestamp": "2087-09-05T13:23:24",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "8d9ec706-bd91-4458-af02-4bc1166c943d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 389.91,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 15072.47,
+        "description": "Rent payment Oct - Rental Management",
+        "timestamp": "2087-10-05T13:23:28",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "d8711093-2453-4a74-8779-756014cc234d",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 360.56,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 14711.91,
+        "description": "Rent payment Nov - Rental Management",
+        "timestamp": "2087-11-04T17:08:33",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      },
+      {
+        "transaction_id": "0c9b840e-5cda-440a-8d08-5f8cb74fe41c",
+        "sender_id": "BRCH-TRCY-802-HAM-1",
+        "recipient_id": "ABIT36422",
+        "transaction_type": "transfer",
+        "amount": 374.99,
+        "location": "",
+        "payment_method": "",
+        "sender_iban": "GB55A1899498623707047636913",
+        "recipient_iban": "IT79Z3132921345218816901038837",
+        "balance_after": 16429.69,
+        "description": "Rent payment Dec - Rental Management",
+        "timestamp": "2087-12-07T16:24:58",
+        "suspect": true,
+        "suspect_reasons": [
+          "gps_dark_period_transactions"
+        ]
+      }
+    ],
+    "emails": [],
+    "sms": []
+  },
+  "sources": {
+    "dataset": "data\\The Truman Show - train",
+    "fraud_report_used": "output\\the_truman_show_-_train_fraud_report.json"
+  }
+}
