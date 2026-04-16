@@ -215,7 +215,6 @@ def main() -> None:
 
     users = load_users(dataset_path / "users.json")
     transactions = load_transactions(dataset_path / "transactions.csv")
-    locations = load_locations(dataset_path / "locations.json")
 
     mails_processed_path = dataset_path / "mails_processed.json"
     sms_processed_path = dataset_path / "sms_processed.json"
@@ -233,14 +232,12 @@ def main() -> None:
 
     biotag_by_iban = index_biotag_by_iban(transactions)
     transactions_by_sender = index_transactions_by_sender_id(transactions)
-    locations_by_biotag = index_locations_by_biotag(locations)
     emails_by_receiver = index_emails_by_receiver(mails_processed)
     sms_by_first_name = index_sms_by_user_first_name(sms_processed, users)
 
     for user in users:
         biotag = biotag_by_iban.get(user.iban)
         user_transactions = transactions_by_sender.get(biotag, []) if biotag else []
-        user_locations = locations_by_biotag.get(biotag, []) if biotag else []
 
         receiver_email = f"{user.first_name}.{user.last_name}".lower().replace(" ", "-") + "@example.com"
         user_emails = emails_by_receiver.get(receiver_email, [])
@@ -281,7 +278,6 @@ def main() -> None:
                 "biotag": biotag,
             },
             "linked_data": {
-                "locations": normalize_for_json(user_locations),
                 "transactions": enriched_transactions,
                 "emails": user_emails,
                 "sms": user_sms,
