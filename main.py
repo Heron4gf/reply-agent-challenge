@@ -6,7 +6,7 @@ from models.response_id import FraudUserTransactions
 load_dotenv()
 
 def getUsers() -> list[UserProfile]:
-    pass
+    return users = load_users(dataset_path / "users.json")
 
 def process_solution(dataset: str, solution_path: str = "result.txt"):
     with open(solution_path, "w", encoding="utf-8") as file:
