@@ -1,0 +1,404 @@
+{
+  "dataset": "data\\The Truman Show - train",
+  "rule": "Flag A -> B -> A city returns completed within 7.0 days and include transactions that occurred while the user was away.",
+  "user_timelines": [
+    {
+      "biotag": "BRCH-TRCY-802-HAM-1",
+      "user": "Tracy Birch",
+      "city_changes": [
+        {
+          "timestamp": "2087-01-01T08:25:39",
+          "city": "Hampstead"
+        },
+        {
+          "timestamp": "2087-04-25T17:12:32",
+          "city": "Ingraj Bazar"
+        },
+        {
+          "timestamp": "2087-05-02T19:34:28",
+          "city": "Hampstead"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Hampstead",
+          "to_city": "Ingraj Bazar",
+          "from_timestamp": "2087-01-01T08:25:39",
+          "to_timestamp": "2087-04-25T17:12:32",
+          "days_between": 114.37,
+          "movement_label": "Hampstead -> Ingraj Bazar"
+        },
+        {
+          "from_city": "Ingraj Bazar",
+          "to_city": "Hampstead",
+          "from_timestamp": "2087-04-25T17:12:32",
+          "to_timestamp": "2087-05-02T19:34:28",
+          "days_between": 7.1,
+          "movement_label": "Ingraj Bazar -> Hampstead"
+        }
+      ]
+    },
+    {
+      "biotag": "GRSC-KRLH-807-DIE-1",
+      "user": "Karl-Hermann Girschner",
+      "city_changes": [
+        {
+          "timestamp": "2087-01-01T13:20:08",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-01-18T18:52:38",
+          "city": "Kaguchi"
+        },
+        {
+          "timestamp": "2087-01-24T14:31:47",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-04-19T01:41:03",
+          "city": "Sokhodewara"
+        },
+        {
+          "timestamp": "2087-04-27T03:45:47",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-06-15T22:33:29",
+          "city": "Jaynagar-Majilpur"
+        },
+        {
+          "timestamp": "2087-06-21T17:22:48",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-08-31T17:28:15",
+          "city": "Manrar"
+        },
+        {
+          "timestamp": "2087-09-06T15:04:10",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-12-17T03:01:20",
+          "city": "Simpelveld"
+        },
+        {
+          "timestamp": "2087-12-23T19:51:27",
+          "city": "Dietzenbach"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Kaguchi",
+          "from_timestamp": "2087-01-01T13:20:08",
+          "to_timestamp": "2087-01-18T18:52:38",
+          "days_between": 17.23,
+          "movement_label": "Dietzenbach -> Kaguchi"
+        },
+        {
+          "from_city": "Kaguchi",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-01-18T18:52:38",
+          "to_timestamp": "2087-01-24T14:31:47",
+          "days_between": 5.82,
+          "movement_label": "Kaguchi -> Dietzenbach"
+        },
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Sokhodewara",
+          "from_timestamp": "2087-01-24T14:31:47",
+          "to_timestamp": "2087-04-19T01:41:03",
+          "days_between": 84.46,
+          "movement_label": "Dietzenbach -> Sokhodewara"
+        },
+        {
+          "from_city": "Sokhodewara",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-04-19T01:41:03",
+          "to_timestamp": "2087-04-27T03:45:47",
+          "days_between": 8.09,
+          "movement_label": "Sokhodewara -> Dietzenbach"
+        },
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Jaynagar-Majilpur",
+          "from_timestamp": "2087-04-27T03:45:47",
+          "to_timestamp": "2087-06-15T22:33:29",
+          "days_between": 49.78,
+          "movement_label": "Dietzenbach -> Jaynagar-Majilpur"
+        },
+        {
+          "from_city": "Jaynagar-Majilpur",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-06-15T22:33:29",
+          "to_timestamp": "2087-06-21T17:22:48",
+          "days_between": 5.78,
+          "movement_label": "Jaynagar-Majilpur -> Dietzenbach"
+        },
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Manrar",
+          "from_timestamp": "2087-06-21T17:22:48",
+          "to_timestamp": "2087-08-31T17:28:15",
+          "days_between": 71.0,
+          "movement_label": "Dietzenbach -> Manrar"
+        },
+        {
+          "from_city": "Manrar",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-08-31T17:28:15",
+          "to_timestamp": "2087-09-06T15:04:10",
+          "days_between": 5.9,
+          "movement_label": "Manrar -> Dietzenbach"
+        },
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Simpelveld",
+          "from_timestamp": "2087-09-06T15:04:10",
+          "to_timestamp": "2087-12-17T03:01:20",
+          "days_between": 101.5,
+          "movement_label": "Dietzenbach -> Simpelveld"
+        },
+        {
+          "from_city": "Simpelveld",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-12-17T03:01:20",
+          "to_timestamp": "2087-12-23T19:51:27",
+          "days_between": 6.7,
+          "movement_label": "Simpelveld -> Dietzenbach"
+        }
+      ]
+    },
+    {
+      "biotag": "RGNR-LNAA-7FF-AUD-0",
+      "user": "Alain Regnier",
+      "city_changes": [
+        {
+          "timestamp": "2087-01-01T19:46:18",
+          "city": "Audincourt"
+        },
+        {
+          "timestamp": "2087-05-26T02:26:51",
+          "city": "Ryazan"
+        },
+        {
+          "timestamp": "2087-06-03T18:12:27",
+          "city": "Audincourt"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Audincourt",
+          "to_city": "Ryazan",
+          "from_timestamp": "2087-01-01T19:46:18",
+          "to_timestamp": "2087-05-26T02:26:51",
+          "days_between": 144.28,
+          "movement_label": "Audincourt -> Ryazan"
+        },
+        {
+          "from_city": "Ryazan",
+          "to_city": "Audincourt",
+          "from_timestamp": "2087-05-26T02:26:51",
+          "to_timestamp": "2087-06-03T18:12:27",
+          "days_between": 8.66,
+          "movement_label": "Ryazan -> Audincourt"
+        }
+      ]
+    }
+  ],
+  "total_suspicious_windows": 4,
+  "results": [
+    {
+      "biotag": "GRSC-KRLH-807-DIE-1",
+      "user": "Karl-Hermann Girschner",
+      "home_city": "Dietzenbach",
+      "visited_city": "Kaguchi",
+      "baseline_city_seen_at": "2087-01-01T13:20:08",
+      "visited_city_at": "2087-01-18T18:52:38",
+      "returned_home_at": "2087-01-24T14:31:47",
+      "timeline": [
+        {
+          "timestamp": "2087-01-01T13:20:08",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-01-18T18:52:38",
+          "city": "Kaguchi"
+        },
+        {
+          "timestamp": "2087-01-24T14:31:47",
+          "city": "Dietzenbach"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Kaguchi",
+          "from_timestamp": "2087-01-01T13:20:08",
+          "to_timestamp": "2087-01-18T18:52:38",
+          "days_between": 17.23,
+          "movement_label": "Dietzenbach -> Kaguchi"
+        },
+        {
+          "from_city": "Kaguchi",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-01-18T18:52:38",
+          "to_timestamp": "2087-01-24T14:31:47",
+          "days_between": 5.82,
+          "movement_label": "Kaguchi -> Dietzenbach"
+        }
+      ],
+      "days_a_to_b": 17.23,
+      "days_b_to_a": 5.82,
+      "days_a_to_return_a": 23.05,
+      "transactions_during_trip": []
+    },
+    {
+      "biotag": "GRSC-KRLH-807-DIE-1",
+      "user": "Karl-Hermann Girschner",
+      "home_city": "Dietzenbach",
+      "visited_city": "Jaynagar-Majilpur",
+      "baseline_city_seen_at": "2087-04-27T03:45:47",
+      "visited_city_at": "2087-06-15T22:33:29",
+      "returned_home_at": "2087-06-21T17:22:48",
+      "timeline": [
+        {
+          "timestamp": "2087-04-27T03:45:47",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-06-15T22:33:29",
+          "city": "Jaynagar-Majilpur"
+        },
+        {
+          "timestamp": "2087-06-21T17:22:48",
+          "city": "Dietzenbach"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Jaynagar-Majilpur",
+          "from_timestamp": "2087-04-27T03:45:47",
+          "to_timestamp": "2087-06-15T22:33:29",
+          "days_between": 49.78,
+          "movement_label": "Dietzenbach -> Jaynagar-Majilpur"
+        },
+        {
+          "from_city": "Jaynagar-Majilpur",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-06-15T22:33:29",
+          "to_timestamp": "2087-06-21T17:22:48",
+          "days_between": 5.78,
+          "movement_label": "Jaynagar-Majilpur -> Dietzenbach"
+        }
+      ],
+      "days_a_to_b": 49.78,
+      "days_b_to_a": 5.78,
+      "days_a_to_return_a": 55.57,
+      "transactions_during_trip": []
+    },
+    {
+      "biotag": "GRSC-KRLH-807-DIE-1",
+      "user": "Karl-Hermann Girschner",
+      "home_city": "Dietzenbach",
+      "visited_city": "Manrar",
+      "baseline_city_seen_at": "2087-06-21T17:22:48",
+      "visited_city_at": "2087-08-31T17:28:15",
+      "returned_home_at": "2087-09-06T15:04:10",
+      "timeline": [
+        {
+          "timestamp": "2087-06-21T17:22:48",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-08-31T17:28:15",
+          "city": "Manrar"
+        },
+        {
+          "timestamp": "2087-09-06T15:04:10",
+          "city": "Dietzenbach"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Manrar",
+          "from_timestamp": "2087-06-21T17:22:48",
+          "to_timestamp": "2087-08-31T17:28:15",
+          "days_between": 71.0,
+          "movement_label": "Dietzenbach -> Manrar"
+        },
+        {
+          "from_city": "Manrar",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-08-31T17:28:15",
+          "to_timestamp": "2087-09-06T15:04:10",
+          "days_between": 5.9,
+          "movement_label": "Manrar -> Dietzenbach"
+        }
+      ],
+      "days_a_to_b": 71.0,
+      "days_b_to_a": 5.9,
+      "days_a_to_return_a": 76.9,
+      "transactions_during_trip": [
+        {
+          "transaction_id": "2d22a0cd-8297-4d67-bd84-9e1ceaba5b10",
+          "timestamp": "2087-09-04T12:13:53",
+          "amount": 325.39,
+          "transaction_type": "transfer",
+          "description": "Internet bill Sep",
+          "merchant_location": null,
+          "payment_method": null,
+          "inferred_city_from_biotag": "Manrar"
+        }
+      ]
+    },
+    {
+      "biotag": "GRSC-KRLH-807-DIE-1",
+      "user": "Karl-Hermann Girschner",
+      "home_city": "Dietzenbach",
+      "visited_city": "Simpelveld",
+      "baseline_city_seen_at": "2087-09-06T15:04:10",
+      "visited_city_at": "2087-12-17T03:01:20",
+      "returned_home_at": "2087-12-23T19:51:27",
+      "timeline": [
+        {
+          "timestamp": "2087-09-06T15:04:10",
+          "city": "Dietzenbach"
+        },
+        {
+          "timestamp": "2087-12-17T03:01:20",
+          "city": "Simpelveld"
+        },
+        {
+          "timestamp": "2087-12-23T19:51:27",
+          "city": "Dietzenbach"
+        }
+      ],
+      "movement_segments": [
+        {
+          "from_city": "Dietzenbach",
+          "to_city": "Simpelveld",
+          "from_timestamp": "2087-09-06T15:04:10",
+          "to_timestamp": "2087-12-17T03:01:20",
+          "days_between": 101.5,
+          "movement_label": "Dietzenbach -> Simpelveld"
+        },
+        {
+          "from_city": "Simpelveld",
+          "to_city": "Dietzenbach",
+          "from_timestamp": "2087-12-17T03:01:20",
+          "to_timestamp": "2087-12-23T19:51:27",
+          "days_between": 6.7,
+          "movement_label": "Simpelveld -> Dietzenbach"
+        }
+      ],
+      "days_a_to_b": 101.5,
+      "days_b_to_a": 6.7,
+      "days_a_to_return_a": 108.2,
+      "transactions_during_trip": []
+    }
+  ]
+}
