@@ -7,6 +7,7 @@ import json
 from bisect import bisect_right
 from dataclasses import dataclass
 from datetime import datetime
+from itertools import pairwise
 from pathlib import Path
 from typing import Any
 
@@ -57,6 +58,42 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         help="Optional JSON output file path. Prints to stdout when omitted.",
+    )
+    parser.add_argument(
+        "--gps-gap-hours",
+        type=float,
+        default=12.0,
+        help="Flag transactions that happen during a GPS gap longer than this many hours.",
+    )
+    parser.add_argument(
+        "--travel-signal-days",
+        type=float,
+        default=3.0,
+        help="Days window used to decide whether a city change recently signaled travel.",
+    )
+    parser.add_argument(
+        "--late-night-start",
+        type=int,
+        default=23,
+        help="Late-night start hour included in residential anomaly checks.",
+    )
+    parser.add_argument(
+        "--late-night-end",
+        type=int,
+        default=5,
+        help="Late-night end hour included in residential anomaly checks.",
+    )
+    parser.add_argument(
+        "--small-amount-threshold",
+        type=float,
+        default=50.0,
+        help="Maximum amount considered a small test transaction.",
+    )
+    parser.add_argument(
+        "--rapid-sequence-hours",
+        type=float,
+        default=6.0,
+        help="Maximum window size for small deceptive transaction sequences.",
     )
     return parser.parse_args()
 
@@ -138,6 +175,107 @@ def infer_transaction_city(
     return locations[insertion_index].city
 
 
+def get_surrounding_locations(
+    transaction: TransactionRecord,
+    locations: list[LocationPoint],
+) -> tuple[LocationPoint | None, LocationPoint | None]:
+    timestamps = [point.timestamp for point in locations]
+    insertion_index = bisect_right(timestamps, transaction.timestamp)
+    previous_point = locations[insertion_index - 1] if insertion_index > 0 else None
+    next_point = locations[insertion_index] if insertion_index < len(locations) else None
+    return previous_point, next_point
+
+
+def extract_transaction_city(transaction: TransactionRecord) -> str | None:
+    if not transaction.location:
+        return None
+
+    if transaction.transaction_type != "in-person payment":
+        return None
+
+    if " - " in transaction.location:
+        return transaction.location.split(" - ", 1)[0].strip()
+
+    return transaction.location.strip() or None
+
+
+def resolve_user(
+    biotag: str,
+    users_by_iban: dict[str, dict[str, Any]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+) -> dict[str, Any] | None:
+    sender_transactions = transactions_by_sender.get(biotag, [])
+    if not sender_transactions:
+        return None
+    return users_by_iban.get(sender_transactions[0].sender_iban)
+
+
+def hours_between(first: datetime, second: datetime) -> float:
+    return abs((second - first).total_seconds()) / 3600
+
+
+def days_between(first: datetime, second: datetime) -> float:
+    return abs((second - first).total_seconds()) / 86400
+
+
+def is_late_night_hour(hour: int, start_hour: int, end_hour: int) -> bool:
+    if start_hour <= end_hour:
+        return start_hour <= hour <= end_hour
+    return hour >= start_hour or hour <= end_hour
+
+
+def build_transaction_context(
+    transaction: TransactionRecord,
+    locations: list[LocationPoint],
+) -> dict[str, Any]:
+    previous_point, next_point = get_surrounding_locations(transaction, locations)
+    inferred_city = infer_transaction_city(transaction, locations)
+    merchant_city = extract_transaction_city(transaction)
+
+    context: dict[str, Any] = {
+        "transaction_id": transaction.transaction_id,
+        "timestamp": transaction.timestamp.isoformat(),
+        "amount": transaction.amount,
+        "transaction_type": transaction.transaction_type,
+        "description": transaction.description,
+        "merchant_location": transaction.location or None,
+        "merchant_city": merchant_city,
+        "payment_method": transaction.payment_method or None,
+        "inferred_city_from_biotag": inferred_city,
+    }
+
+    if previous_point:
+        context["previous_gps_ping"] = {
+            "timestamp": previous_point.timestamp.isoformat(),
+            "city": previous_point.city,
+            "hours_from_transaction": round(
+                hours_between(transaction.timestamp, previous_point.timestamp), 2
+            ),
+        }
+    else:
+        context["previous_gps_ping"] = None
+
+    if next_point:
+        context["next_gps_ping"] = {
+            "timestamp": next_point.timestamp.isoformat(),
+            "city": next_point.city,
+            "hours_from_transaction": round(
+                hours_between(transaction.timestamp, next_point.timestamp), 2
+            ),
+        }
+    else:
+        context["next_gps_ping"] = None
+
+    if previous_point and next_point:
+        context["gps_gap_hours"] = round(
+            hours_between(previous_point.timestamp, next_point.timestamp), 2
+        )
+    else:
+        context["gps_gap_hours"] = None
+
+    return context
+
+
 def build_user_label(user: dict[str, Any] | None, biotag: str) -> str:
     if not user:
         return biotag
@@ -176,10 +314,7 @@ def build_user_timelines(
     timelines: list[dict[str, Any]] = []
 
     for biotag, points in sorted(locations_by_biotag.items()):
-        sender_transactions = transactions_by_sender.get(biotag, [])
-        user = None
-        if sender_transactions:
-            user = users_by_iban.get(sender_transactions[0].sender_iban)
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
 
         city_changes = compress_city_changes(points)
         timelines.append(
@@ -197,6 +332,214 @@ def build_user_timelines(
     return timelines
 
 
+def detect_gps_transaction_mismatches(
+    users_by_iban: dict[str, dict[str, Any]],
+    locations_by_biotag: dict[str, list[LocationPoint]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+
+    for biotag, transactions in sorted(transactions_by_sender.items()):
+        points = locations_by_biotag.get(biotag, [])
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
+
+        for transaction in transactions:
+            if transaction.transaction_type != "in-person payment":
+                continue
+
+            context = build_transaction_context(transaction, points)
+            merchant_city = context["merchant_city"]
+            gps_city = context["inferred_city_from_biotag"]
+
+            if not merchant_city or not gps_city or merchant_city == gps_city:
+                continue
+
+            findings.append(
+                {
+                    "biotag": biotag,
+                    "user": build_user_label(user, biotag),
+                    "pattern": "gps_transaction_mismatch",
+                    "transaction": context,
+                }
+            )
+
+    return findings
+
+
+def detect_new_jurisdiction_transactions(
+    users_by_iban: dict[str, dict[str, Any]],
+    locations_by_biotag: dict[str, list[LocationPoint]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+    travel_signal_days: float,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+
+    for biotag, transactions in sorted(transactions_by_sender.items()):
+        points = locations_by_biotag.get(biotag, [])
+        changes = compress_city_changes(points)
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
+        residence_city = user["residence"]["city"] if user else None
+
+        for transaction in transactions:
+            context = build_transaction_context(transaction, points)
+            transaction_city = context["merchant_city"] or context["inferred_city_from_biotag"]
+            if not transaction_city:
+                continue
+
+            prior_changes = [point for point in changes if point.timestamp < transaction.timestamp]
+            prior_cities = {point.city for point in prior_changes}
+            recently_changed = any(
+                days_between(transaction.timestamp, point.timestamp) <= travel_signal_days
+                for point in prior_changes[-2:]
+            )
+
+            if transaction_city in prior_cities:
+                continue
+            if residence_city and transaction_city == residence_city:
+                continue
+            if recently_changed:
+                continue
+
+            findings.append(
+                {
+                    "biotag": biotag,
+                    "user": build_user_label(user, biotag),
+                    "pattern": "new_jurisdiction_without_recent_travel_signal",
+                    "residence_city": residence_city,
+                    "transaction_city": transaction_city,
+                    "travel_signal_days_threshold": travel_signal_days,
+                    "transaction": context,
+                }
+            )
+
+    return findings
+
+
+def detect_residential_habit_anomalies(
+    users_by_iban: dict[str, dict[str, Any]],
+    locations_by_biotag: dict[str, list[LocationPoint]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+    late_night_start: int,
+    late_night_end: int,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+
+    for biotag, transactions in sorted(transactions_by_sender.items()):
+        points = locations_by_biotag.get(biotag, [])
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
+        residence_city = user["residence"]["city"] if user else None
+
+        for transaction in transactions:
+            if not is_late_night_hour(transaction.timestamp.hour, late_night_start, late_night_end):
+                continue
+
+            context = build_transaction_context(transaction, points)
+            effective_city = context["merchant_city"] or context["inferred_city_from_biotag"]
+            if not effective_city or not residence_city:
+                continue
+            if effective_city == residence_city:
+                continue
+
+            findings.append(
+                {
+                    "biotag": biotag,
+                    "user": build_user_label(user, biotag),
+                    "pattern": "late_night_outside_residential_habit",
+                    "residence_city": residence_city,
+                    "transaction_city": effective_city,
+                    "transaction": context,
+                }
+            )
+
+    return findings
+
+
+def detect_small_deceptive_sequences(
+    users_by_iban: dict[str, dict[str, Any]],
+    locations_by_biotag: dict[str, list[LocationPoint]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+    small_amount_threshold: float,
+    rapid_sequence_hours: float,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+
+    for biotag, transactions in sorted(transactions_by_sender.items()):
+        points = locations_by_biotag.get(biotag, [])
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
+        candidate_transactions = []
+
+        for transaction in transactions:
+            if transaction.amount > small_amount_threshold:
+                continue
+            context = build_transaction_context(transaction, points)
+            effective_city = context["merchant_city"] or context["inferred_city_from_biotag"]
+            if not effective_city:
+                continue
+            candidate_transactions.append((transaction, context, effective_city))
+
+        for left, right in pairwise(candidate_transactions):
+            first_tx, first_context, first_city = left
+            second_tx, second_context, second_city = right
+            if first_city == second_city:
+                continue
+            if hours_between(first_tx.timestamp, second_tx.timestamp) > rapid_sequence_hours:
+                continue
+
+            findings.append(
+                {
+                    "biotag": biotag,
+                    "user": build_user_label(user, biotag),
+                    "pattern": "small_rapid_multi_city_sequence",
+                    "sequence_window_hours": round(
+                        hours_between(first_tx.timestamp, second_tx.timestamp), 2
+                    ),
+                    "transactions": [first_context, second_context],
+                }
+            )
+
+    return findings
+
+
+def detect_gps_dark_period_transactions(
+    users_by_iban: dict[str, dict[str, Any]],
+    locations_by_biotag: dict[str, list[LocationPoint]],
+    transactions_by_sender: dict[str, list[TransactionRecord]],
+    gps_gap_hours: float,
+) -> list[dict[str, Any]]:
+    findings: list[dict[str, Any]] = []
+
+    for biotag, transactions in sorted(transactions_by_sender.items()):
+        points = locations_by_biotag.get(biotag, [])
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
+
+        for transaction in transactions:
+            context = build_transaction_context(transaction, points)
+            gap = context["gps_gap_hours"]
+            if gap is None or gap <= gps_gap_hours:
+                continue
+
+            prev_ping = context["previous_gps_ping"]
+            next_ping = context["next_gps_ping"]
+            hours_to_prev = prev_ping["hours_from_transaction"] if prev_ping else None
+            hours_to_next = next_ping["hours_from_transaction"] if next_ping else None
+
+            if hours_to_prev is not None and hours_to_next is not None:
+                if hours_to_prev == 0 or hours_to_next == 0:
+                    continue
+
+            findings.append(
+                {
+                    "biotag": biotag,
+                    "user": build_user_label(user, biotag),
+                    "pattern": "transaction_during_gps_dark_period",
+                    "gps_gap_hours_threshold": gps_gap_hours,
+                    "transaction": context,
+                }
+            )
+
+    return findings
+
+
 def detect_suspicious_windows(
     users_by_iban: dict[str, dict[str, Any]],
     locations_by_biotag: dict[str, list[LocationPoint]],
@@ -208,9 +551,7 @@ def detect_suspicious_windows(
     for biotag, points in sorted(locations_by_biotag.items()):
         changes = compress_city_changes(points)
         sender_transactions = transactions_by_sender.get(biotag, [])
-        user = None
-        if sender_transactions:
-            user = users_by_iban.get(sender_transactions[0].sender_iban)
+        user = resolve_user(biotag, users_by_iban, transactions_by_sender)
 
         for index in range(2, len(changes)):
             first = changes[index - 2]
@@ -228,19 +569,7 @@ def detect_suspicious_windows(
             for transaction in sender_transactions:
                 if second.timestamp <= transaction.timestamp <= third.timestamp:
                     suspicious_transactions.append(
-                        {
-                            "transaction_id": transaction.transaction_id,
-                            "timestamp": transaction.timestamp.isoformat(),
-                            "amount": transaction.amount,
-                            "transaction_type": transaction.transaction_type,
-                            "description": transaction.description,
-                            "merchant_location": transaction.location or None,
-                            "payment_method": transaction.payment_method or None,
-                            "inferred_city_from_biotag": infer_transaction_city(
-                                transaction,
-                                points,
-                            ),
-                        }
+                        build_transaction_context(transaction, points)
                     )
 
             suspicious_timeline = [first, second, third]
@@ -292,24 +621,85 @@ def main() -> None:
         locations_by_biotag=locations_by_biotag,
         transactions_by_sender=transactions_by_sender,
     )
+    gps_transaction_mismatches = detect_gps_transaction_mismatches(
+        users_by_iban=users_by_iban,
+        locations_by_biotag=locations_by_biotag,
+        transactions_by_sender=transactions_by_sender,
+    )
+    new_jurisdiction_transactions = detect_new_jurisdiction_transactions(
+        users_by_iban=users_by_iban,
+        locations_by_biotag=locations_by_biotag,
+        transactions_by_sender=transactions_by_sender,
+        travel_signal_days=args.travel_signal_days,
+    )
+    residential_habit_anomalies = detect_residential_habit_anomalies(
+        users_by_iban=users_by_iban,
+        locations_by_biotag=locations_by_biotag,
+        transactions_by_sender=transactions_by_sender,
+        late_night_start=args.late_night_start,
+        late_night_end=args.late_night_end,
+    )
+    deceptive_sequences = detect_small_deceptive_sequences(
+        users_by_iban=users_by_iban,
+        locations_by_biotag=locations_by_biotag,
+        transactions_by_sender=transactions_by_sender,
+        small_amount_threshold=args.small_amount_threshold,
+        rapid_sequence_hours=args.rapid_sequence_hours,
+    )
+    gps_dark_period_transactions = detect_gps_dark_period_transactions(
+        users_by_iban=users_by_iban,
+        locations_by_biotag=locations_by_biotag,
+        transactions_by_sender=transactions_by_sender,
+        gps_gap_hours=args.gps_gap_hours,
+    )
 
     report = {
         "dataset": str(dataset_path),
-        "rule": (
-            f"Flag A -> B -> A city returns completed within {args.return_days} days "
-            "and include transactions that occurred while the user was away."
-        ),
+        "rules": {
+            "ping_pong_return_days": args.return_days,
+            "gps_gap_hours": args.gps_gap_hours,
+            "travel_signal_days": args.travel_signal_days,
+            "late_night_hours": {
+                "start": args.late_night_start,
+                "end": args.late_night_end,
+            },
+            "small_amount_threshold": args.small_amount_threshold,
+            "rapid_sequence_hours": args.rapid_sequence_hours,
+        },
         "user_timelines": user_timelines,
-        "total_suspicious_windows": len(suspicious_windows),
-        "results": suspicious_windows,
+        "pattern_counts": {
+            "ping_pong_movements": len(suspicious_windows),
+            "gps_transaction_mismatches": len(gps_transaction_mismatches),
+            "new_jurisdiction_transactions": len(new_jurisdiction_transactions),
+            "residential_habit_anomalies": len(residential_habit_anomalies),
+            "deceptive_small_transaction_sequences": len(deceptive_sequences),
+            "gps_dark_period_transactions": len(gps_dark_period_transactions),
+        },
+        "patterns": {
+            "ping_pong_movements": suspicious_windows,
+            "gps_transaction_mismatches": gps_transaction_mismatches,
+            "new_jurisdiction_transactions": new_jurisdiction_transactions,
+            "residential_habit_anomalies": residential_habit_anomalies,
+            "deceptive_small_transaction_sequences": deceptive_sequences,
+            "gps_dark_period_transactions": gps_dark_period_transactions,
+        },
+        "notes": [
+            "GPS mismatch requires a transaction with a physical merchant location.",
+            "New jurisdiction checks use city changes in BioTag history; explicit airport or station signals are not available in this dataset.",
+            "Residential anomaly checks are strongest for transactions with a physical location or a reliable inferred BioTag city.",
+        ],
     }
 
     rendered = json.dumps(report, indent=2)
     if args.output:
         output_path = Path(args.output)
-        output_path.write_text(rendered + "\n", encoding="utf-8")
     else:
-        print(rendered)
+        dataset_slug = dataset_path.name.lower().replace(" ", "_")
+        output_path = Path("output") / f"{dataset_slug}_fraud_report.json"
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(rendered + "\n", encoding="utf-8")
+    print(f"Report written to {output_path}")
 
 
 if __name__ == "__main__":
