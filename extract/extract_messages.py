@@ -1,5 +1,6 @@
 import json
 import asyncio
+import os
 from typing import List, Optional
 from utils.call_llm import call_llm
 from utils.read_prompt import read_file
@@ -11,7 +12,8 @@ async def process_sms(raw_text: str, sem: asyncio.Semaphore) -> List[SMS]:
             call_llm,
             prompt_id="extract_sms",
             input=raw_text,
-            output_format=SMSList
+            output_format=SMSList,
+            model=os.getenv("EXTRACTION_MODEL")
         )
         return result.messages
 

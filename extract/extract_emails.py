@@ -1,4 +1,5 @@
 import json
+import os
 import asyncio
 from typing import List, Optional
 from utils.call_llm import call_llm
@@ -11,7 +12,8 @@ async def process_email(raw_text: str, sem: asyncio.Semaphore) -> List[Email]:
             call_llm,
             prompt_id="extract_emails",
             input=raw_text,
-            output_format=EmailList
+            output_format=EmailList,
+            model=os.getenv("EXTRACTION_MODEL")
         )
         return result.emails
 

@@ -18,24 +18,34 @@ langfuse_client = Langfuse(
     host=os.getenv("LANGFUSE_HOST", "https://challenges.reply.com/langfuse")
 )
 
-SESSION_ID_FILE = "./session_id.json"
+SESSION_CACHE_FILE = "session_id.json"
 
 def generate_session_id() -> str:
-    team = os.getenv("TEAM_NAME").replace(" ", "-")
+    team = os.getenv("TEAM_NAME", "tutorial").replace(" ", "-")
     return f"{team}-{ulid.new().str}"
 
-def get_cached_session_id() -> str:
-    """Get session ID from cache, or generate and cache a new one if not present."""
-    if os.path.exists(SESSION_ID_FILE):
-        with open(SESSION_ID_FILE, "r") as f:
+def get_cached_session_id(cache_file: str = SESSION_CACHE_FILE) -> str:
+    if not os.path.exists(cache_file):
+        session_id = generate_session_id()
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump({"session_id": session_id}, f)
+        return session_id
+
+    try:
+        with open(cache_file, "r", encoding="utf-8") as f:
             data = json.load(f)
-            return data.get("session_id")
-    
-    # Generate new session ID and cache it
-    session_id = generate_session_id()
-    with open(SESSION_ID_FILE, "w") as f:
-        json.dump({"session_id": session_id}, f)
-    
+    except (OSError, json.JSONDecodeError) as e:
+        raise RuntimeError(
+            f"Cannot read session cache file '{cache_file}'. "
+            "File exists but is unreadable or contains invalid JSON."
+        ) from e
+
+    session_id = data.get("session_id")
+    if not isinstance(session_id, str) or not session_id.strip():
+        raise RuntimeError(
+            f"Session cache file '{cache_file}' is valid JSON but does not contain a usable 'session_id'."
+        )
+
     return session_id
 
 @observe()
